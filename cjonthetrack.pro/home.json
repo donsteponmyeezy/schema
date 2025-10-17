@@ -15,11 +15,15 @@
       },
       "image": "https://cjonthetrack.pro/wp-content/uploads/2025/09/IMG_5605-scaled.jpg",
       "description": "CjOnTheTrack is a Mobile, Alabama music producer delivering custom beats, mixing, mastering, DJ services, and artist consulting for industry-quality music.",
+      "telephone": "+2515913148",
+      "priceRange": "$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Mobile",
         "addressRegion": "AL",
-        "addressCountry": "US"
+        "addressCountry": "US",
+        "postalCode": "36618",
+        "streetAddress": "1214 Stevens Lane"
       },
       "areaServed": {
         "@type": "City",
