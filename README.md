@@ -2,6 +2,13 @@
 
 GEO validated schema for web pages. Rich metadata for objects on the page to help machines understand their purpose and relationships through graphs.
 
+## Implementation
+
+Put the JSON-LD formatted schema within a script tag as follows:
+`<script type="application/ld+json" class="optimized-schema-graph">
+  {schema goes here}
+  </script>`
+
 ## Overview
 
 This repository contains a comprehensive schema for embedding GEO (Geospatial) metadata into web pages. The schema is designed to enhance the understanding of web content by machines, enabling better indexing, searchability, and interoperability of geospatial data.

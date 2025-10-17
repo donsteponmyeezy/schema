@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["MusicGroup", "ProfessionalService"],
+      "@id": "https://cjonthetrack.pro/#identity",
+      "name": "CJ on the Track",
+      "url": "https://cjonthetrack.pro/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mobile",
+        "addressRegion": "AL",
+        "addressCountry": "US",
+        "postalCode": "36618",
+        "streetAddress": "1214 Stevens Lane"
+      },
+      "telephone": "+2515913148",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mobile"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://youtube.com/@cjonthetrack251",
+        "https://www.facebook.com/share/19PQqyeFby/",
+        "https://www.threads.com/@1cjonthetrack",
+        "https://music.apple.com/us/artist/cjonthetrack/1557915107"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cjonthetrack.pro/#website",
+      "url": "https://cjonthetrack.pro/",
+      "name": "CJ on the Track",
+      "publisher": {
+        "@id": "https://cjonthetrack.pro/#identity"
+      }
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://cjonthetrack.pro/contact-me/#webpage",
+      "url": "https://cjonthetrack.pro/contact-me/",
+      "name": "Contact CjOnTheTrack | Mobile, AL Music Producer",
+      "isPartOf": {
+        "@id": "https://cjonthetrack.pro/#website"
+      },
+      "about": {
+        "@id": "https://cjonthetrack.pro/#identity"
+      },
+      "description": "Contact CjOnTheTrack for custom beats, mixing, mastering, or artist consulting. Let's build your next hit from my studio in Mobile, Alabama.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://cjonthetrack.pro/",
+              "name": "CjOnTheTrack | Mobile Alabama Music Producer"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://cjonthetrack.pro/contact-me/",
+              "name": "Contact CjOnTheTrack | Mobile, AL Music Producer"
+            }
+          }
+        ]
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
