@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/web-design-services/#webpage",
+      "url": "https://depinhodesign.com/web-design-services/",
+      "name": "Custom Web Design Services in Westchester & Putnam County, NY",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "description": "Professional web design services for small businesses in the Hudson Valley. We create responsive, SEO-friendly websites that drive growth and convert visitors.",
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/web-design-services/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/web-design-services/#service"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/web-design-services/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/services/",
+            "name": "Services"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://depinhodesign.com/web-design-services/",
+            "name": "Web Design Services"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#professionalService",
+      "name": "DePinho Graphic Design",
+      "image": "https://depinhodesign.com/wp-content/uploads/2021/07/depinho-design-website-bookmark.jpg",
+      "telephone": "+1-845-621-8546",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://depinhodesign.com/web-design-services/#service",
+      "name": "Website Design",
+      "serviceType": "Custom Website Design and Development",
+      "slogan": "Crafting Digital Experiences That Convert.",
+      "description": "We specialize in building beautiful, high-performance websites tailored to your brand. Our services include responsive design, e-commerce integration, and SEO optimization to ensure your online presence is powerful and effective.",
+      "provider": {
+        "@id": "https://depinhodesign.com/#professionalService"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Westchester County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Putnam County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Fairfield County"
+        },
+        {
+          "@type": "Place",
+          "name": "Hudson Valley"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$$$",
+        "priceCurrency": "USD"
+      }
+    }
+  ]
+}
