@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://depinhodesign.com/#website",
+      "url": "https://depinhodesign.com",
+      "name": "DePinho Graphic Design",
+      "description": "Website design and Graphic design studio specializing in online marketing solutions for Westchester, Putnam, Fairfield, and the Hudson Valley region.",
+      "publisher": {
+        "@id": "https://depinhodesign.com/#professionalService"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://depinhodesign.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#professionalService",
+      "name": "DePinho Graphic Design",
+      "image": "https://depinhodesign.com/wp-content/uploads/2021/07/depinho-design-website-bookmark.jpg",
+      "url": "https://depinhodesign.com",
+      "telephone": "+1-845-621-8546",
+      "priceRange": "$$",
+      "description": "DePinho Graphic Design is a creative agency based in Mahopac, NY, specializing in website design, branding, and online marketing for small businesses in the Hudson Valley region.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Joseph DePinho"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-845-621-8546",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/in/depinho-design",
+        "https://www.instagram.com/depinho_design"
+      ],
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Westchester County",
+          "sameAs": "https://en.wikipedia.org/wiki/Westchester_County,_New_York"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Putnam County",
+          "sameAs": "https://en.wikipedia.org/wiki/Putnam_County,_New_York"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Fairfield County",
+          "sameAs": "https://en.wikipedia.org/wiki/Fairfield_County,_Connecticut"
+        },
+        {
+          "@type": "Place",
+          "name": "Hudson Valley",
+          "sameAs": "https://en.wikipedia.org/wiki/Hudson_Valley"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/#webpage",
+      "url": "https://depinhodesign.com",
+      "name": "DePinho Graphic Design | Web Design & Branding Agency",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "about": {
+        "@id": "https://depinhodesign.com/#professionalService"
+      },
+      "description": "Award-winning web design and branding agency in Mahopac, NY. We help small businesses grow with stunning websites and strategic marketing."
+    }
+  ]
+}
