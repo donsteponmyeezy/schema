@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MusicGroup",
+      "@id": "https://cjonthetrack.pro/#identity",
+      "name": "CJ on the Track",
+      "url": "https://cjonthetrack.pro/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cjonthetrack.pro/#website",
+      "url": "https://cjonthetrack.pro/",
+      "name": "CJ on the Track",
+      "publisher": {
+        "@id": "https://cjonthetrack.pro/#identity"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://cjonthetrack.pro/beats/#webpage",
+      "url": "https://cjonthetrack.pro/beats/",
+      "name": "Online Beat Store & Custom Production | Mobile Alabama",
+      "isPartOf": {
+        "@id": "https://cjonthetrack.pro/#website"
+      },
+      "description": "Buy and lease R&B beats, hip hop instrumentals, and custom production from CjOnTheTrack’s Mobile Alabama studio.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://cjonthetrack.pro/",
+              "name": "CjOnTheTrack | Mobile Alabama Music Producer"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://cjonthetrack.pro/beats/",
+              "name": "Online Beat Store & Custom Production | Mobile Alabama"
+            }
+          }
+        ]
+      },
+      "inLanguage": "en-US",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "The Beat Vault",
+        "description": "A collection of instrumentals available for lease or exclusive purchase.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": ["Product", "MusicRecording"],
+              "name": "Bully Master - Instrumental",
+              "url": "https://cjonthetrack.pro/beats/",
+              "byArtist": { "@id": "https://cjonthetrack.pro/#identity" },
+              "inAlbum": { "@type": "MusicAlbum", "name": "The Beat Vault" },
+              "duration": "PT2M44S",
+              "genre": ["Hip Hop", "Rap"],
+              "audio": {
+                "@type": "AudioObject",
+                "contentUrl": "https://cjonthetrack.pro/wp-content/uploads/2025/10/bully_Master.wav"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://cjonthetrack.pro/beats/",
+                "availability": "https://schema.org/InStock",
+                "seller": { "@id": "https://cjonthetrack.pro/#identity" }
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": ["Product", "MusicRecording"],
+              "name": "You Don't Know My Name - Instrumental",
+              "url": "https://cjonthetrack.pro/beats/",
+              "byArtist": { "@id": "https://cjonthetrack.pro/#identity" },
+              "inAlbum": { "@type": "MusicAlbum", "name": "The Beat Vault" },
+              "duration": "PT3M12S",
+              "genre": "R&B",
+              "audio": {
+                "@type": "AudioObject",
+                "contentUrl": "https://cjonthetrack.pro/wp-content/uploads/2025/10/you-dont-know-my-name-76.102.wav"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://cjonthetrack.pro/beats/",
+                "availability": "https://schema.org/InStock",
+                "seller": { "@id": "https://cjonthetrack.pro/#identity" }
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": ["Product", "MusicRecording"],
+              "name": "Reasonable Doubt - Instrumental",
+              "url": "https://cjonthetrack.pro/beats/",
+              "byArtist": { "@id": "https://cjonthetrack.pro/#identity" },
+              "inAlbum": { "@type": "MusicAlbum", "name": "The Beat Vault" },
+              "duration": "PT2M33S",
+              "genre": ["Hip Hop", "Rap"],
+              "audio": {
+                "@type": "AudioObject",
+                "contentUrl": "https://cjonthetrack.pro/wp-content/uploads/2025/10/reasonable-doubt.wav"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://cjonthetrack.pro/beats/",
+                "availability": "https://schema.org/InStock",
+                "seller": { "@id": "https://cjonthetrack.pro/#identity" }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["MusicGroup", "ProfessionalService"],
+      "@id": "https://cjonthetrack.pro/#identity",
+      "name": "CJ on the Track",
+      "url": "https://cjonthetrack.pro/",
+      "image": "https://cjonthetrack.pro/wp-content/uploads/2025/09/1-scaled.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mobile",
+        "addressRegion": "AL",
+        "addressCountry": "US"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Music Production and Artist Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom-Made Beats",
+              "serviceType": "Audio Production",
+              "description": "Create unique, high-quality instrumentals that reflect your artistic vision. Commission a custom track designed just for you, perfect for Hip Hop, R&B, and Rap artists.",
+              "provider": { "@id": "https://cjonthetrack.pro/#identity" },
+              "areaServed": {
+                "@type": "City",
+                "name": "Mobile"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mixing & Mastering",
+              "serviceType": "Audio Engineering",
+              "description": "Transform your vocals and instrumentals with professional mixing and mastering to ensure your tracks are polished, balanced, and ready for streaming platforms and radio.",
+              "provider": { "@id": "https://cjonthetrack.pro/#identity" },
+              "areaServed": {
+                "@type": "City",
+                "name": "Mobile"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Live DJ Services",
+              "serviceType": "DJ Service",
+              "description": "High-energy performances with seamless transitions and crowd-pleasing mixes tailored to your vibe, available for concerts and private events.",
+              "provider": { "@id": "https://cjonthetrack.pro/#identity" },
+              "areaServed": {
+                "@type": "City",
+                "name": "Mobile"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Music Business Consultation",
+              "serviceType": "Consulting Service",
+              "description": "Personalized consultations for independent artists covering topics like branding, distribution, and marketing to help you navigate the music industry with confidence.",
+              "provider": { "@id": "https://cjonthetrack.pro/#identity" },
+              "areaServed": {
+                "@type": "City",
+                "name": "Mobile"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cjonthetrack.pro/#website",
+      "url": "https://cjonthetrack.pro/",
+      "name": "CJ on the Track",
+      "publisher": {
+        "@id": "https://cjonthetrack.pro/#identity"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cjonthetrack.pro/services/#webpage",
+      "url": "https://cjonthetrack.pro/services/",
+      "name": "Music Production Services | CJ on the Track",
+      "isPartOf": {
+        "@id": "https://cjonthetrack.pro/#website"
+      },
+      "about": {
+        "@id": "https://cjonthetrack.pro/#identity"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://cjonthetrack.pro/wp-content/uploads/2025/09/1-scaled.png"
+      },
+      "description": "Explore professional music services by CjOnTheTrack in Mobile, AL. We offer custom beat production, industry-standard mixing and mastering, live DJ services, and artist consulting.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://cjonthetrack.pro/",
+              "name": "CjOnTheTrack | Mobile Alabama Music Producer"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://cjonthetrack.pro/services/",
+              "name": "Services"
+            }
+          }
+        ]
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
