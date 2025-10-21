@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/09/dashcam-home.webp",
+      "width": 670,
+      "height": 468,
+      "caption": "Safety and AI Dashcams Overview"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#breadcrumb",
+      "name": "Safety & AI Dashcams Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/safety-and-ai-dashcams-overview/",
+            "name": "Safety & AI Dashcams Overview"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#webpage",
+      "url": "https://btracking.com/safety-and-ai-dashcams-overview/",
+      "name": "Safety and AI Dashcams Overview | Btracking",
+      "description": "AI Dashcams by Btracking combine ADAS and DMS to deliver real-time alerts for hazards, distractions, and fatigue. In-cab alerts warn of lane departure,",
+      "keywords": "fleet dash cam with gps, fleet ai dashcam, eld solutions, eld fleet management, truck driver eld, driver eld, eld mandate solutions, ADAS, DMS, driver safety",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#service"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#service",
+      "name": "Fleet AI Dashcam | ELD Solutions",
+      "description": "Btracking's fleet AI dashcam systems feature ADAS and DMS for real-time driver alerts on fatigue, distraction, and road hazards. These systems integrate with our ELD solutions for a complete fleet management platform, providing video event dashboards, driver self-coaching, and HOS compliance.",
+      "serviceType": [
+        "Fleet AI Dashcam",
+        "Fleet Dash Cam with GPS",
+        "ELD Solutions",
+        "Driver Safety Solutions",
+        "ELD Fleet Management",
+        "Driver Coaching"
+      ],
+      "provider": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "US"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/safety-and-ai-dashcams-overview/#faqpage",
+      "name": "Safety and AI Dashcams FAQ",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do AI dashcams improve fleet safety?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI dashcams reduce collisions by up to 60% by detecting distracted driving, tailgating, fatigue, and phone use. They alert drivers in real time and upload events for manager review, creating safer habits fleet-wide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the dashcams installed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dashcams are easily installed by plugging into the vehicle’s OBD port or auxiliary power port. Dashcams can also be wired to the vehicle’s electrical system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the system support cargo or trailer camera views?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Up to 8 channels are supported on the BD9000 series, allowing front, side, rear, in-cab, and trailer coverage, along with video storage up to 4TB."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the dashcams require the engine to be running for live view?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can check in anytime with live video access, even if the vehicle is parked and the ignition is off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are ELD solutions and how do they relate to dashcams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ELD (Electronic Logging Device) solutions are systems mandated for commercial drivers to automatically log Hours of Service (HOS). While AI dashcams focus on driver safety and behavior, they are often integrated into a complete ELD fleet management system. Btracking's truck driver ELD solutions work alongside our fleet dash cam with GPS to ensure compliance with the ELD mandate while also improving overall fleet safety and accountability."
+          }
+        }
+      ]
+    }
+  ]
+}

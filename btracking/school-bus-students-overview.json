@@ -1,0 +1,210 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/school-bus-students-overview/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/09/school-bus-banner-1350px.webp",
+      "width": 1350,
+      "height": 773,
+      "caption": "School Bus & Students Overview"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/school-bus-students-overview/#breadcrumb",
+			"name": "School Bus and Students Tracking",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/school-bus-students-overview/",
+            "name": "School Bus & Students Overview"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/school-bus-students-overview/#webpage",
+      "url": "https://btracking.com/school-bus-students-overview/",
+      "name": "School Bus & Students Overview - Btracking",
+      "description": "A complete solution for schools and bus fleets to manage bus route planning and tracking, track student/passenger pickups and dropoffs, and communicate with parents.",
+      "keywords": "school bus tracking, student tracking, parentlink app, bus route planning, student safety, bus eta",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/school-bus-students-overview/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/school-bus-students-overview/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://btracking.com/school-bus-students-overview/#service"
+        },
+        {
+          "@id": "https://btracking.com/school-bus-students-overview/#faqpage"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://btracking.com/school-bus-students-overview/#service",
+      "name": "School Bus & Student Safety Solutions",
+      "description": "A complete solution for schools and bus fleets to manage bus route planning and tracking, track student/passenger pickups and dropoffs, and communicate with parents. Our system combines real-time GPS tracking, BLE tags to identify student/passenger ridership, and the ParentLink App to share live bus ETA and alerts with guardians.",
+      "serviceType": [
+        "School Bus Tracking",
+        "Student Tracking",
+        "Route Planning",
+        "Parent Communication App"
+      ],
+      "provider": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "US"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "School Bus & Student Tracking Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "School Bus & Student Tracking",
+              "description": "Manage bus route planning and optimization, track student pickups/dropoffs, and view integrated dashcam footage.",
+              "url": "https://btracking.com/school-bus-student-tracking/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "SoftwareApplication",
+              "name": "ParentLink App",
+              "description": "Bus locator app for parents with real-time bus location, route, and stop ETAs. Provides alerts when a student boards or disembarks.",
+              "url": "https://btracking.com/parentlink-app-school-bus-student-tracking/#parentlink-app",
+              "operatingSystem": [
+                "Android",
+                "iOS"
+              ],
+              "applicationCategory": "NavigationApplication"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Air Trackers for Student Tracking",
+              "description": "Economical tracking for small items like backpacks. Connects to the iPhone network to transmit location to the platform.",
+              "url": "https://btracking.com/mini-air-tracker/",
+              "image": "https://btracking.com/wp-content/uploads/2025/06/btair-product-thumnail-bus.webp",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "USD",
+                "price": "99.99",
+                "itemCondition": "NewCondition",
+                "availability": "InStock"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/school-bus-students-overview/#faqpage",
+      "name": "FAQ's for School Bus & Students",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does the school bus GPS tracking system work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking’s school bus GPS trackers and Pro Fleet platform provides real-time bus location, route tracking, and accurate, real-time updated ETAs for each stop. From the platform, school administrators see real-time bus locations, route progress, delays, and missed stops. Parent see the real-time bus location and stop ETA on the ParentLink app, and receive alerts on arrivals, departures, and delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the ParentLink app and how does it help guardians?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ParentLink app is a free tool for iPhone and Android that shows the bus’s live location, estimated time of arrival at a student’s assigned stop, and notifications of when a student boards or exits the bus (if student tracking is enable by the school). It’s designed to give families peace of mind with real-time visibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are student pickups and drop-offs tracked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are three ridership tracking options: 1. Mini BLE tags worn by students send automatic check-in/out data to the GPS tracker. 2. RFID cards or fobs scanned on entry log each boarding. 3. DriverLink app with RFID reader records student ID and bus location without needing vehicle hardware. Each method provides time-stamped logs visible in the ParentLink app and school dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is student data FERPA-compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking follows strict data privacy, encryption, and access control protocols to comply with FERPA and other student data protection regulations."
+          }
+        }
+      ]
+    }
+  ]
+}

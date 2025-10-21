@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/#webpage",
+      "url": "https://btracking.com/",
+      "name": "Btracking | Cost-Effective Tracking Solutions",
+      "description": "Btracking is the all-in-one solution for your business's tracking needs. From fleet vehicle tracking to personal tracking devices, we have it all.",
+      "keywords": "fleet vehicle tracking, personal tracking devices, asset tracking, fleet management, cost-effective tracking solutions, AI dashcams",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "about": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/#breadcrumb"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "description": "Btracking is the all-in-one solution for your business's tracking needs. From fleet vehicle tracking to personal tracking devices, we have it all.",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": {
+        "@id": "https://btracking.com/#primaryimage"
+      },
+      "telephone": "+1-866-233-0953",
+      "description": "Btracking is a leading US-based provider of cost-effective, all-in-one GPS tracking solutions for fleet vehicle tracking, asset management, and personal tracking.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "width": 1200,
+      "height": 630,
+      "caption": "Btracking Affordable GPS Tracking Solutions"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/#breadcrumb",
+      "name": "Btracking Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        }
+      ]
+    }
+  ]
+}

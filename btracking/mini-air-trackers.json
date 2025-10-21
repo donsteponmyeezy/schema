@@ -1,0 +1,285 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://twitter.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/mini-air-trackers/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/06/btracking-btair-generator-composite.webp",
+      "width": 947,
+      "height": 508,
+      "caption": "Btracking Air Tracker Bluetooth tracker"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/mini-air-trackers/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/mini-air-trackers/",
+            "name": "Air Trackers"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/mini-air-trackers/#webpage",
+      "url": "https://btracking.com/mini-air-trackers/",
+      "name": "Air Trackers | AirTag Alternative",
+      "description": "BTAIR is a rugged, solar-powered Bluetooth Tracker and AirTag alternative. BTMTW is a replaceable battery AirTag alternative. No GPS or cell plan needed. Waterproof, long-lasting & iPhone-compatible.",
+      "keywords": "Air Tracker, AirTag alternative, Bluetooth tracker, solar powered tracker, replaceable battery tracker, iPhone compatible tracker, Find My network, BTAIR, BTMTW, tool tracking, bike tracking, backpack tracking",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/mini-air-trackers/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/mini-air-trackers/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://btracking.com/mini-air-trackers/#productgroup"
+        },
+        {
+          "@id": "https://btracking.com/mini-air-trackers/#faqpage"
+        }
+      ]
+    },
+    {
+      "@type": "ProductGroup",
+      "@id": "https://btracking.com/mini-air-trackers/#productgroup",
+      "name": "Btracking Air Trackers (AirTag Alternatives)",
+      "description": "Economical and rugged Bluetooth trackers that utilize the iPhone Find My Network to display asset locations on the Btracking Pro Fleet Platform. Available in solar-powered and replaceable battery models.",
+      "url": "https://btracking.com/mini-air-trackers/",
+      "image": "https://btracking.com/wp-content/uploads/2025/06/btracking-btair-generator-composite.webp",
+      "brand": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://btracking.com/mini-air-trackers/#webpage"
+      },
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BTAIR Solar Mini Air Tracker",
+          "sku": "BTAIR",
+          "url": "https://btracking.com/btair-mini-solar-tracker/",
+          "image": "https://btracking.com/wp-content/uploads/2025/06/btracking-btair-generator-composite.webp",
+          "description": "A rugged, solar-powered Bluetooth tracker that automatically connects to the iPhone Find My Network. Features a long-life solar-rechargeable battery and a tough waterproof enclosure.",
+          "brand": {
+            "@id": "https://btracking.com/#corporation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://btracking.com/btair-mini-solar-tracker/",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "USD"
+          },
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Power Source",
+              "value": "Solar-Rechargeable Battery"</script>
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Network",
+              "value": "Bluetooth (Apple Find My Network)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Features",
+              "value": "Waterproof, Rugged Enclosure"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Compatibility",
+              "value": "Btracking Pro Fleet Platform, Apple Find My"
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "BTMTW Mini Air Tracker (Replaceable Battery)",
+          "sku": "BTMTW",
+          "url": "https://btracking.com/btmtw-mini-air-tracker/",
+          "image": "https://btracking.com/wp-content/uploads/2025/06/btracking-BTMTW-boy-backpack-composite.webp",
+          "description": "A mini waterproof Bluetooth tracker and AirTag alternative with a long-life replaceable CR2032 battery. Connects to the iPhone Find My Network for easy tracking of tools, backpacks, and bikes.",
+          "brand": {
+            "@id": "https://btracking.com/#corporation"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://btracking.com/btmtw-mini-air-tracker/",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "USD"
+          },
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Power Source",
+              "value": "Replaceable CR2032 Battery (Approx. 16-month life)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Network",
+              "value": "Bluetooth (Apple Find My Network)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Features",
+              "value": "Waterproof, Compact Size"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Compatibility",
+              "value": "Btracking Pro Fleet Platform, Apple Find My"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/mini-air-trackers/#faqpage",
+      "name": "Air Trackers FAQ’s",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Bluetooth tracking device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Bluetooth tracking device is a small, wireless tool that uses Bluetooth technology to help you locate and monitor valuable items, equipment, or assets. These devices are ideal for short-range tracking and typically pair with mobile devices to display location data in near-real time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Air Trackers differ from other Bluetooth tracking devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike standard trackers, Air Trackers combines Bluetooth functionality and Find My network connectivity with GPS for ultra-low power use. It is designed for long-term outdoor asset tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe long does the battery last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The BTAIR Air Tracker has a Solar Rechargeable battery. it stays fully charged with only a few hours’ sunlight a day. Even with no sunlight, the battery will last several weeks before needing a recharge. The BTMTW Air Tracker uses a CR2032 battery which lasts approximately 16 months with normal use and is easy to replace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use an Air Tracker to track items outdoors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Air Trackers are built specifically for outdoor use. It is weather-resistant, solar-powered, and ideal for tracking tools, bikes, cars, vans, trailers, equipment, construction and agriculture machines, even packages for the logistics industry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far can a Bluetooth tracking device reach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Air Trackers connect via bluetooth with any iPhone or IOS device within 100 to 300 feet. The device it connects with will have a GPS modem and wireless cell network connection to send the data to the mapping platform as long as a cell tower is within range."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do Air Trackers require a subscription or monthly fee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Air Trackers include a one year subscription to the cloud-based tracking platform. After the first year, a subscription is required for a very modest fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Air Trackers compatible with smartphones or tracking apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our Air Trackers integrate seamlessly with the Btracking platform and mobile-friendly web dashboard. It allows you to manage, monitor, and locate all your Bluetooth tracking devices in real time, from anywhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does solar power benefit a Bluetooth tracking device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The solar panel continually recharges the battery, keeping it fully charged with just a few hours’ sunlight a day. Even if used for extended periods without access to sunlight, the tracker will fully recharge with just a few hours’ sunlight. The battery lasts many years before it needs replacing. This is especially valuable for businesses that require 24/7 tracking without frequent maintenance or battery replacement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Air Trackers easy to install?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the tracker is lightweight, compact, and simple to affix with a security loop (included) or attach with 2-sided tape on most surfaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track multiple Bluetooth devices at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. The Btracking platform allows you to manage unlimited Air Trackers plus all your GPS tracked vehicles, assets and phones on the same platform, making it ideal for asset tracking across large teams or business operations."
+          }
+        }
+      ]
+    }
+  ]
+}

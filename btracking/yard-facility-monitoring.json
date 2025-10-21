@@ -1,0 +1,243 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+	  "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/yard-facility-monitoring/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2024/03/btracking-yard-tracker.webp",
+      "width": 947,
+      "height": 508,
+      "caption": "Yard & Facility Monitoring"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/yard-facility-monitoring/#breadcrumb",
+      "name": "Yard Management Solutions Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/yard-facility-monitoring/",
+            "name": "Yard Management Solutions"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/yard-facility-monitoring/#webpage",
+      "url": "https://btracking.com/yard-facility-monitoring/",
+      "name": "Yard Management Solutions | Real-Time LoRa Asset Tracking",
+      "description": "Track assets in yards, ports, and warehouses with Btracking’s LoRa yard management system. Discover cost-effective tags and yard tracking solutions.",
+      "keywords": "yard management, facility monitoring, LoRa tracking, LoRaWAN, asset tracking, warehouse inventory, port asset tracking, airport asset management, real-time location system, RTLS, forklift tracking, pallet tracking, container tracking, solar powered trackers, low-power tracking",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/yard-facility-monitoring/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/yard-facility-monitoring/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://btracking.com/yard-facility-monitoring/#service"
+        },
+        {
+          "@id": "https://btracking.com/yard-facility-monitoring/#faqpage"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://btracking.com/yard-facility-monitoring/#service",
+      "name": "LoRa Yard Monitoring System",
+      "description": "A real-time asset tracking system using LoRa (long-range WiFi) tags and base stations. Ideal for monitoring non-road assets like forklifts, pallets, trailers, and equipment in yards, ports, airports, and warehouses.",
+      "serviceType": [
+        "Yard Management System",
+        "Facility Asset Tracking",
+        "LoRaWAN Solutions",
+        "Real-Time Location System (RTLS)",
+        "Warehouse Asset Management",
+        "Port Asset Tracking",
+        "Airport Ground Support Equipment (GSE) Tracking",
+        "Inventory Management"
+      ],
+      "provider": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "US"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "LoRa Yard Management System Features",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Real-Time Asset Location",
+              "description": "View real-time GPS locations of all tagged assets like forklifts, pallets, and trailers on a PC or mobile phone."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Geofence & Movement Alerts",
+              "description": "Create geofence boundaries around the yard and receive instant alerts when assets enter, leave, or begin to move."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Temperature Monitoring",
+              "description": "Optional LoRa temperature sensors provide climate monitoring with instant alarms for temperature deviations."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inventory Management Reports",
+              "description": "Access comprehensive data including location history, asset usage, geofence reports, and temperature logs."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Solar-Powered & Rechargeable LoRa Tags",
+              "description": "Long-life solar-rechargeable or battery-powered tags for continuous asset tracking.",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "89"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/yard-facility-monitoring/#faqpage",
+      "name": "LoRa Yard Management System FAQ’s",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Btracking’s LoRa Yard Management System?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The LoRa Yard Management System uses long-range wireless tags and base stations to provide real-time location tracking for assets within a local area, such as a yard, port, warehouse, or campus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the system track assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each asset is fitted with a LoRa GPS tag, which transmits its location to nearby base stations using long-range WiFi. The base stations then forward this data to the Btracking platform for live location monitoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of assets can I track with LoRa tags?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can track forklifts, pallets, trailers, cranes, baggage carts, and other mobile equipment within a facility. It’s ideal for any non-road asset that stays within a defined area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is the tracking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The system provides near real-time visibility and exact GPS locations when used in conjunction with properly placed base stations, spaced about ½ mile apart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far can LoRa tags communicate with base stations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LoRa tags can typically communicate up to ½ mile to a base station, depending on the layout and environment of your facility. You can expand coverage by adding more base stations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the tags and base stations solar powered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking offers both solar rechargeable, and rechargeable battery powered LoRa tags. Base stations require power, and have a solar panel for emergency backup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the system support temperature monitoring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Optional LoRa temperature sensors can be added to monitor environmental conditions, with instant alerts if temperatures fall outside your preset thresholds."
+          }
+        }
+      ]
+    }
+  ]
+}

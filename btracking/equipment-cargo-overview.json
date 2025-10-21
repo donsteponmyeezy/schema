@@ -1,0 +1,234 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://twitter.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/equipment-cargo-overview/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/09/cargo-2123123943.webp",
+      "width": 1350,
+      "height": 752,
+      "caption": "Equipment & Cargo Overview"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/equipment-cargo-overview/#breadcrumb",
+      "name": "Equipment & Cargo Overview Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/equipment-cargo-overview/",
+            "name": "Equipment & Cargo Overview"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/equipment-cargo-overview/#webpage",
+      "url": "https://btracking.com/equipment-cargo-overview/",
+      "name": "Equipment & Cargo Overview - Btracking",
+      "description": "Track tools and equipment, keep tabs on cargo, monitor temperature and humidity. Monitor and remotely unlock cargo doors.",
+      "keywords": "equipment tracking, cargo tracking, tool tracking, temperature monitoring, humidity monitoring, remote door unlock, pallet tracking, package tracking, cold chain monitoring",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/equipment-cargo-overview/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/equipment-cargo-overview/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://btracking.com/equipment-cargo-overview/#service"
+        },
+        {
+          "@id": "https://btracking.com/equipment-cargo-overview/#faqpage"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://btracking.com/equipment-cargo-overview/#service",
+      "name": "Equipment & Cargo Tracking Solutions",
+      "description": "Btracking's solutions for tools, equipment, and cargo. Track assets with BLE and GPS, monitor temperature and humidity for cold chain, and remotely unlock cargo doors.",
+      "serviceType": [
+        "Equipment Tracking",
+        "Cargo Tracking",
+        "Tool Tracking",
+        "Cold Chain Monitoring",
+        "Pallet Tracking",
+        "Asset Tracking"
+      ],
+      "provider": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "US"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Asset Tracking Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tool Tracking",
+              "description": "Integrate BLE tags into GPS trackers to monitor tool inventory on vehicles and in your shop, with pickup/dropoff alerts.",
+              "url": "https://btracking.com/tool-tracking/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Equipment Tracking",
+              "description": "Prevent equipment loss and reduce theft by tracking portable equipment, pallets, and packages from your phone or PC.",
+              "url": "https://btracking.com/gps-equipment-tracking"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pallet Tracking",
+              "description": "Easily keep track of valuable pallets and their cargo with reusable trackers to prevent loss and quickly locate them in the yard.",
+              "url": "https://btracking.com/pallet-tracking/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Packages & Cargo Tracking",
+              "description": "Prevent loss and theft with real GPS package and cargo tracking, using reusable trackers with long-life batteries.",
+              "url": "https://btracking.com/packages-and-cargo-tracking/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cold Chain Temperature & Humidity Monitoring",
+              "description": "Monitor temperature and humidity inside trailers and containers with real-time GPS locations and alerts if thresholds are exceeded.",
+              "url": "https://btracking.com/cold-chain/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remote Door Unlocking",
+              "description": "Secure cargo with the Solar Elock, providing real-time GPS tracking, tampering alerts, and remote unlocking via app or SMS.",
+              "url": "https://btracking.com/solarlock-remote-unlocking-with-gps/"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/equipment-cargo-overview/#faqpage",
+      "name": "Equipment, Tools & Cargo Tracking FAQ",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do Btracking tool tracking devices work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking uses BLE tags and GPS trackers to monitor tool locations. Tags beam a unique ID within 250 ft, and BLE-enabled GPS trackers in vehicles or warehouses transmit the tool’s location to your platform in real time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are equipment tracking devices and how do they work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Equipment tracking devices use GPS, BLE, WiFi, or LoRa technology to monitor the real-time location of assets. Btracking offers devices for tools, small equipment, pallets, and packages, allowing businesses to prevent theft, reduce loss, and track movement from phone or PC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does pallet tracking with GPS work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pallet tracking is made simple with Btracking’s mini GPS equipment tracking devices. Once attached, trackers send real-time updates when in motion and switch to lower-frequency reporting when idle, extending battery life while ensuring visibility of your pallets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do our cold chain monitoring solutions work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking’s cold chain monitoring solutions use GPS-enabled devices with internal or BLE-connected sensors to track temperature, humidity, and location. Real-time alerts notify drivers and managers of any deviations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track packages in transit with Btracking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking’s package GPS tracking devices are designed to locate shipments even inside warehouses or boxes. Mini battery trackers provide real-time updates and can also monitor temperature during transport, making them perfect for sensitive shipments."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/fleet-management-overview/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/09/fleet-banner-1350px.webp",
+      "width": 1350,
+      "height": 773,
+      "caption": "Fleet Management Overview"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/fleet-management-overview/#breadcrumb",
+      "name": "Fleet Management Overview Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/fleet-management-overview/",
+            "name": "Fleet Management Overview"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/fleet-management-overview/#webpage",
+      "url": "https://btracking.com/fleet-management-overview/",
+      "name": "Fleet Management Overview | Btracking",
+      "description": "Drive performance improvement, efficiency and savings with our extensive suite of fleet and workforce management tools.",
+      "keywords": "fleet management, fleet management system, fleet tracking, truck fleet tracking, truck fleet tracking system, fleet tracking system, Driver ID, HOS ELD, Service Titan Integration",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/fleet-management-overview/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/fleet-management-overview/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://btracking.com/fleet-management-overview/#service"
+        },
+        {
+          "@id": "https://btracking.com/fleet-management-overview/#faqpage"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://btracking.com/fleet-management-overview/#service",
+      "name": "Fleet Management System",
+      "description": "Btracking's fleet management system helps drive performance improvement, efficiency, and savings. Our extensive suite of fleet and workforce management tools includes Driver ID, HOS ELD compliance solutions, and Service Titan integration.",
+      "serviceType": [
+        "Fleet Management",
+        "Fleet Management System",
+        "Fleet Tracking",
+        "Truck Fleet Tracking",
+        "Truck Fleet Tracking System",
+        "Fleet Tracking System"
+      ],
+      "provider": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "US"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fleet Management Solutions",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Driver ID Solutions",
+              "description": "Automatically identify which driver is operating which vehicle to simplify monitoring, behavior tracking, and accountability.",
+              "url": "https://btracking.com/driver-id/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "HOS ELD Compliance",
+              "description": "Streamline operations and simplify FMCSA compliance with Btracking’s driver ELD solutions and HOS app.",
+              "url": "https://btracking.com/driver-eld/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Service Titan Integration",
+              "description": "Integrate Btracking Pro Fleet with Service Titan CRM for seamless job management, scheduling, and accounting.",
+              "url": "https://btracking.com/data-integrations/"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/fleet-management-overview/#faqpage",
+      "name": "Fleet Management FAQ",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of trucks are compatible with Btracking’s fleet tracking system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Btracking’s GPS Truck Trackers are compatible with Class 6–8 commercial vehicles and connects via the OBDII or J1939 port using a plug-and-play harness. It’s built to support long-haul trucks, box trucks, and vocational fleets requiring real-time diagnostics and driver safety monitoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What vehicle and driver data does the truck GPS tracker collect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The system captures GPS location, speed, engine diagnostics (DTC codes), harsh braking, idling, acceleration, and cornering data. It also integrates with AI dashcams, Driver ID, and BLE sensors for a full view of driver behavior and vehicle health."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if the truck travels through areas with no cell service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The system includes store-and-forward technology, which saves location and diagnostic data while offline and automatically uploads it once connectivity is restored—so no trip data is ever lost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the advantages of using a truck fleet tracking system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fleets using Btracking report up to 20% better vehicle utilization, 10% fuel savings, fewer maintenance issues, and improved driver accountability. The system offers powerful tools to reduce insurance costs, improve safety, and keep cargo secure in transit."
+          }
+        }
+      ]
+    }
+  ]
+}
