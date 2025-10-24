@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://alliancemechanicalsolutions.com/#website",
+      "url": "https://alliancemechanicalsolutions.com/",
+      "name": "Alliance Mechanical Solutions",
+      "description": "Leaders in Maritime Pipe and Structural Fabrication and Installation",
+      "publisher": {
+        "@id": "https://alliancemechanicalsolutions.com/#localbusiness"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://alliancemechanicalsolutions.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": ["LocalBusiness", "GeneralContractor", "Organization"],
+      "@id": "https://alliancemechanicalsolutions.com/#localbusiness",
+      "name": "Alliance Mechanical Solutions",
+      "url": "https://alliancemechanicalsolutions.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://alliancemechanicalsolutions.com/wp-content/uploads/2025/10/Screenshot-2025-10-23-at-6.16.33-PM.png",
+        "width": 822,
+        "height": 216
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "http://alliancemechanicalsolutions.com/wp-content/uploads/2025/10/Screenshot-2025-10-23-at-6.16.33-PM.png",
+        "width": 822,
+        "height": 216
+      },
+      "description": "Leaders in Maritime Pipe and Structural Fabrication and Installation, providing comprehensive mechanical solutions for the marine and industrial sectors. Now hiring.",
+      "priceRange": "$$",
+      "telephone": "+1-251-943-0267",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "33981 AL-59",
+        "addressLocality": "Loxley",
+        "addressRegion": "AL",
+        "postalCode": "36551",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "30.637500",
+        "longitude": "-87.765630"
+      },
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Alabama"
+        },
+        {
+          "@type": "GeoShape",
+          "description": "Gulf Coast Region"
+        }
+      ],
+      "sameAs": [
+        "https://www.tiktok.com/@alliancemechanicalsol",
+        "https://x.com/alliance50471",
+        "https://www.linkedin.com/company/alliance-mechanical-solutions-llc",
+        "https://www.instagram.com/alliancemechanicalsolutions/"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:30",
+        "closes": "16:30"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://alliancemechanicalsolutions.com/#webpage",
+      "url": "https://alliancemechanicalsolutions.com/",
+      "name": "Alliance Mechanical Solutions | Home | Now Hiring",
+      "isPartOf": {
+        "@id": "https://alliancemechanicalsolutions.com/#website"
+      },
+      "about": {
+        "@id": "https://alliancemechanicalsolutions.com/#localbusiness"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
