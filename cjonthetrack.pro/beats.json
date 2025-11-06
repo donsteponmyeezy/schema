@@ -5,7 +5,8 @@
       "@type": "MusicGroup",
       "@id": "https://cjonthetrack.pro/#identity",
       "name": "CJ on the Track",
-      "url": "https://cjonthetrack.pro/"
+      "url": "https://cjonthetrack.pro/",
+      "logo": ""
     },
     {
       "@type": "WebSite",
@@ -57,7 +58,9 @@
             "position": 1,
             "item": {
               "@type": ["Product", "MusicRecording"],
-              "name": "Bully Master - Instrumental",
+              "name": "Bully - Instrumental",
+              "description": "Undisputed victory",
+              "image": "https://cjonthetrack.pro/wp-content/uploads/2025/11/bully.jpg",
               "url": "https://cjonthetrack.pro/beats/",
               "byArtist": { "@id": "https://cjonthetrack.pro/#identity" },
               "inAlbum": { "@type": "MusicAlbum", "name": "The Beat Vault" },
@@ -71,7 +74,9 @@
                 "@type": "Offer",
                 "url": "https://cjonthetrack.pro/beats/",
                 "availability": "https://schema.org/InStock",
-                "seller": { "@id": "https://cjonthetrack.pro/#identity" }
+                "seller": { "@id": "https://cjonthetrack.pro/#identity" },
+                "price": "100.00",
+                "priceCurrency": "USD"
               }
             }
           },
@@ -81,6 +86,8 @@
             "item": {
               "@type": ["Product", "MusicRecording"],
               "name": "You Don't Know My Name - Instrumental",
+              "image": "https://cjonthetrack.pro/wp-content/uploads/2025/11/you_dont_know_my_name.jpg",
+              "description": "Unnoticed",
               "url": "https://cjonthetrack.pro/beats/",
               "byArtist": { "@id": "https://cjonthetrack.pro/#identity" },
               "inAlbum": { "@type": "MusicAlbum", "name": "The Beat Vault" },
@@ -94,7 +101,9 @@
                 "@type": "Offer",
                 "url": "https://cjonthetrack.pro/beats/",
                 "availability": "https://schema.org/InStock",
-                "seller": { "@id": "https://cjonthetrack.pro/#identity" }
+                "seller": { "@id": "https://cjonthetrack.pro/#identity" },
+                "price": "100.00",
+                "priceCurrency": "USD"
               }
             }
           },
@@ -104,6 +113,8 @@
             "item": {
               "@type": ["Product", "MusicRecording"],
               "name": "Reasonable Doubt - Instrumental",
+              "image": "https://cjonthetrack.pro/wp-content/uploads/2025/11/reasonable_doubt.png",
+              "description": "Resist the world by any means necessary",
               "url": "https://cjonthetrack.pro/beats/",
               "byArtist": { "@id": "https://cjonthetrack.pro/#identity" },
               "inAlbum": { "@type": "MusicAlbum", "name": "The Beat Vault" },
@@ -117,11 +128,38 @@
                 "@type": "Offer",
                 "url": "https://cjonthetrack.pro/beats/",
                 "availability": "https://schema.org/InStock",
-                "seller": { "@id": "https://cjonthetrack.pro/#identity" }
+                "seller": { "@id": "https://cjonthetrack.pro/#identity" },
+                "price": "100.00",
+                "priceCurrency": "USD"
               }
             }
           }
         ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://cjonthetrack.pro/#studiotime",
+      "name": "Studio Time (Recording & Production)",
+      "description": "Professional studio time for recording, mixing, and production.",
+      "image": "",
+      "serviceType": "RecordingStudio",
+      "provider": { "@id": "https://cjonthetrack.pro/#identity" },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Mobile, Alabama"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://cjonthetrack.pro/",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@id": "https://cjonthetrack.pro/#identity" },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "40.00",
+          "priceCurrency": "USD",
+          "description": "per hour"
+        }
       }
     }
   ]
