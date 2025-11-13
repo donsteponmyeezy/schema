@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cookescrating.com/#person",
+      "name": "Cooke's Crating and Fine Arts Transportation Inc."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cookescrating.com/#website",
+      "url": "https://cookescrating.com",
+      "name": "Cooke's Crating and Fine Arts Transportation Inc.",
+      "publisher": {
+        "@id": "https://cookescrating.com/#person"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://cookescrating.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp",
+      "url": "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp",
+      "width": "200",
+      "height": "200",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cookescrating.com/#webpage",
+      "url": "https://cookescrating.com",
+      "name": "Cooke's Crating and Fine Arts Transportation Inc.",
+      "datePublished": "2022-11-16T14:34:21-05:00",
+      "dateModified": "2025-01-08T19:57:26-05:00",
+      "about": {
+        "@id": "https://cookescrating.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://cookescrating.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cookescrating.com/author/joecc/",
+      "name": "JoeCC",
+      "url": "https://cookescrating.com/author/joecc/",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://secure.gravatar.com/avatar/31f8c0bf6fe338408186ee390a2af6ffe81e092add008bee24102465a28c877f?s=96&d=mm&r=g",
+        "url": "https://secure.gravatar.com/avatar/31f8c0bf6fe338408186ee390a2af6ffe81e092add008bee24102465a28c877f?s=96&d=mm&r=g",
+        "caption": "JoeCC",
+        "inLanguage": "en-US"
+      },
+      "sameAs": ["https://cookescrating.com"]
+    },
+    {
+      "@type": "Article",
+      "headline": "Cooke's Crating and Fine Arts Transportation Inc.",
+      "keywords": "cooke's crating,Cooke's Crating and Fine Arts Transportation",
+      "datePublished": "2022-11-16T14:34:21-05:00",
+      "dateModified": "2025-01-08T19:57:26-05:00",
+      "author": {
+        "@id": "https://cookescrating.com/author/joecc/",
+        "name": "JoeCC"
+      },
+      "publisher": {
+        "@id": "https://cookescrating.com/#person"
+      },
+      "description": "Welcome to Cooke's Crating and Fine Arts Transportation. Los Angeles's premier fine art shipping, fine art installation & fine art storage company.",
+      "name": "Cooke's Crating and Fine Arts Transportation Inc.",
+      "@id": "https://cookescrating.com/#richSnippet",
+      "isPartOf": {
+        "@id": "https://cookescrating.com/#webpage"
+      },
+      "image": {
+        "@id": "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp"
+      },
+      "inLanguage": "en-US",
+      "mainEntityOfPage": {
+        "@id": "https://cookescrating.com/#webpage"
+      }
+    }
+  ]
+}
