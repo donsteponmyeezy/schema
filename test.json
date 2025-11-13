@@ -1,0 +1,105 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://btracking.com/mining-oil-gas/",
+    "name": "Oil and Gas Equipment Tracking | Btracking Solutions",
+    "description": "Oil and gas equipment tracking & asset tracking. Our advanced trackers offer predictive maintenance, GPS tracking, and more.",
+    "isPartOf": {
+        "@id": "https://btracking.com/"
+    },
+    "about": {
+        "@id": "https://btracking.com/mining-oil-gas/",
+        "@type": "WebPage",
+        "url": "https://btracking.com/mining-oil-gas/",
+        "name": "Oil and Gas Equipment Tracking | Btracking Solutions",
+        "description": "Oil and gas equipment tracking & asset tracking. Our advanced trackers offer predictive maintenance, GPS tracking, and more.",
+        "publisher": {
+            "@id": "https://btracking.com/",
+            "@type": "Organization",
+            "name": "Btracking Solutions",
+            "url": "https://btracking.com/",
+            "logo": "https://btracking.com/wp-content/uploads/2023/09/btracking-logo-logo.webp",
+            "image": {
+                "@id": "https://btracking.com/mining-oil-gas/",
+                "@type": "ImageObject",
+                "url": "https://btracking.com/wp-content/uploads/2025/06/oil-and-gas-btracking.webp",
+                "width": 500,
+                "height": 406,
+                "caption": "Oil and Gas Equipment Tracking"
+            },
+            "datePublished": "2025-06-01",
+            "dateModified": "2025-06-01",
+            "mainEntity": [
+                {
+                    "@id": "https://btracking.com/mining-oil-gas/service",
+                    "@type": "Service",
+                    "name": "Oil and Gas Equipment Tracking",
+                    "description": "Btracking's oil and gas equipment tracking solutions feature GPS trackers with predictive maintenance capabilities, providing real-time diagnostics and alerts when maintenance is needed.",
+                    "serviceType": [
+                        "Oil and Gas Equipment Tracking",
+                        "Equipment Tracking",
+                        "Asset Tracking",
+                        "Predictive Maintenance"
+                    ],
+                    "provider": {
+                        "@id": "https://btracking.com/",
+                        "@type": "Organization",
+                        "name": "Btracking Solutions",
+                        "url": "https://btracking.com/",
+                        "logo": "https://btracking.com/wp-content/uploads/2023/09/btracking-logo-logo.webp",
+                        "image": {
+                            "@id": "https://btracking.com/mining-oil-gas/",
+                            "@type": "ImageObject",
+                            "url": "https://btracking.com/wp-content/uploads/2025/06/oil-and-gas-btracking.webp",
+                            "width": 500,
+                            "height": 406,
+                            "caption": "Oil and Gas Equipment Tracking"
+                        },
+                        "areaServed": {
+                            "@type": "Country",
+                            "name": "US"
+                        },
+                        "hasOfferCatalog": {
+                            "@type": "OfferCatalog",
+                            "name": "Asset Tracking Services",
+                            "itemListElement": [
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Oil and Gas Equipment Tracking",
+                                        "description": "Btracking's oil and gas equipment tracking solutions feature GPS trackers with predictive maintenance capabilities, providing real-time diagnostics and alerts when maintenance is needed.",
+                                        "url": "https://btracking.com/mining-oil-gas/service/oil-and-gas-equipment-tracking/"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Equipment Tracking",
+                                        "description": "Btracking's equipment tracking solutions use GPS trackers to monitor the real-time location of your equipment, helping to prevent theft and reduce loss.",
+                                        "url": "https://btracking.com/mining-oil-gas/service/equipment-tracking/"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Asset Tracking",
+                                        "description": "Btracking's asset tracking solutions use GPS trackers to monitor the real-time location of your assets, providing peace of mind and helping to prevent theft.",
+                                        "url": "https://btracking.com/mining-oil-gas/service/asset-tracking/"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Predictive Maintenance",
+                                        "description": "Btracking's predictive maintenance solutions use GPS trackers and machine learning algorithms to identify potential equipment failures before they occur, reducing downtime and maintenance costs.",
+                                        "url": "https://btracking.com/mining-oil-gas/service/predictive-maintenance/"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }

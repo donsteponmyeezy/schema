@@ -12,6 +12,7 @@
         "width": 2560,
         "height": 630
       },
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
       "telephone": "+1-866-233-0953",
       "address": {
         "@type": "PostalAddress",
@@ -28,7 +29,6 @@
         "areaServed": "US",
         "availableLanguage": "English"
       },
-      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
       "sameAs": [
         "https://www.facebook.com/btracking/",
         "https://x.com/btracking"

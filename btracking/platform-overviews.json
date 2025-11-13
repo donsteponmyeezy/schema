@@ -1,0 +1,199 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/06/btracking-btair-generator-composite.webp",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/platform-overviews/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2025/09/fleet-mangrment-banner-1350px-1.webp",
+      "width": 1350,
+      "height": 773,
+      "caption": "Btracking Platform Overview"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/platform-overviews/#breadcrumb",
+      "name": "Platform Overview Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/platform-overviews/",
+            "name": "Platform Overview"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://btracking.com/platform-overviews/#webpage",
+      "url": "https://btracking.com/platform-overviews/",
+      "name": "Platform Overview | Btracking Tracking App",
+      "description": "Access real-time locations and essential data for every vehicle, asset, and team member. Our intuitive platforms (Standard, ProFleet, Enterprise) deliver the precise insights your business needs.",
+      "keywords": "GPS tracking platform, fleet management software, Standard Platform, ProFleet Platform, Enterprise Platform, vehicle tracking app, asset tracking dashboard",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/platform-overviews/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/platform-overviews/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://btracking.com/platform-overviews/#platform-list"
+        },
+        {
+          "@id": "https://btracking.com/platform-overviews/#faqpage"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://btracking.com/platform-overviews/#platform-list",
+      "name": "Btracking Software Platforms",
+      "description": "A summary of Btracking's three GPS tracking and fleet management platforms.",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "@id": "https://btracking.com/standard-platform/#service",
+            "name": "Standard Platform",
+            "url": "https://btracking.com/standard-platform/",
+            "description": "Ideal for most small to mid-size fleets, Standard provides functionality for organizing, vehicle sensor data, driver ID and behavior scoring, fuel monitoring, maintenance tracking, basic tool tracking, notifications, reports, and much more.",
+            "provider": {
+              "@id": "https://btracking.com/#corporation"
+            },
+            "serviceType": "FleetManagementSoftware"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "@id": "https://btracking.com/pro-fleet-platform/#service",
+            "name": "ProFleet Platform",
+            "url": "https://btracking.com/pro-fleet-platform/",
+            "description": "ProFleet is ideal for truck fleets, school bus fleets, and specialized requirements. ProFleet features a comprehensive driver coaching dashboard, integrated AI dashcams, advanced tool and tool inventory tracking, the LoRa yard management system, and Air Trackers.",
+            "provider": {
+              "@id": "https://btracking.com/#corporation"
+            },
+            "serviceType": "FleetManagementSoftware"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "@id": "https://btracking.com/lbs-platform/#service",
+            "name": "Enterprise Platform",
+            "url": "https://btracking.com/lbs-platform/",
+            "description": "Rich in detail yet simple to use, Enterprise is the total package. Designed specifically for mid to large fleets, Enterprise provides a full array of tools, apps and reporting features designed specifically for logistics, transportation and trucking businesses.",
+            "provider": {
+              "@id": "https://btracking.com/#corporation"
+            },
+            "serviceType": "FleetManagementSoftware"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://btracking.com/platform-overviews/#faqpage",
+      "name": "FAQ's for Platform Overview",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does Btracking have three platforms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because fleets have differing needs, and we found that one platform is not suitable for every fleet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Standard Platform best for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Standard Platform has everything a small to mid-sized fleet requires without bloat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Pro Fleet Platform best for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Pro Fleet Platform is great for truck fleets, school buses, and tool tracking with 360 dashcam support, comprehensive driver analysis and coaching, and an industry-leading School Bus and Student Management System."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Enterprise Platform best for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Enterprise Platform is a comprehensive system for logistics offering dispatch, route planning, navigation, driver coaching, fuel reporting & fuel card integration and more."
+          }
+        }
+      ]
+    }
+  ]
+}

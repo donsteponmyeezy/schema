@@ -1,0 +1,195 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://btracking.com/#corporation",
+      "name": "Btracking",
+      "url": "https://btracking.com/",
+      "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
+      "telephone": "+1-866-233-0953",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "340 US-202",
+        "addressLocality": "Somers",
+        "addressRegion": "NY",
+        "postalCode": "10589",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-866-233-0953",
+        "contactType": "Sales",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/btracking/",
+        "https://x.com/btracking"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://btracking.com/#website",
+      "url": "https://btracking.com/",
+      "name": "Btracking",
+      "publisher": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://btracking.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#primaryimage",
+      "url": "https://btracking.com/wp-content/uploads/2024/07/btracking-Wanco-Road-Sign-Tracker-3.webp",
+      "width": 947,
+      "height": 508,
+      "caption": "Btracking Wanco Road Sign GPS"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#breadcrumb",
+      "name": "Wanco Road Sign Tracking & Message Control Breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://btracking.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/",
+            "name": "Wanco Road Sign Tracking & Message Control"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#webpage",
+      "url": "https://btracking.com/wanco-road-signs-tracking-message-control/",
+      "name": "Wanco Road Sign Tracking & Message Control",
+      "description": "Track Wanco road signs on Btracking. Manage and change sign messaging remotely with a GPS tracker that integrates with the Wanco sign controller.",
+      "keywords": "Wanco road sign tracking, remote message control, GPS for Wanco signs, variable message sign tracking, VMS tracking, construction sign management, remote sign programming, BHW550",
+      "isPartOf": {
+        "@id": "https://btracking.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#service"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://btracking.com/bhw550-wanco-sign-hardwired-tracker/#product",
+      "name": "Wanco Road Sign Tracker (BHW550)",
+      "url": "https://btracking.com/bhw550-wanco-sign-hardwired-tracker/",
+      "description": "Hardwired GPS tracker designed to integrate with Wanco road sign controllers for location tracking and remote message management via the Btracking platform.",
+      "brand": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "sku": "BHW550",
+      "image": "https://btracking.com/wp-content/uploads/2024/07/btracking-Wanco-Road-Sign-Tracker-3.webp",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://btracking.com/bhw550-wanco-sign-hardwired-tracker/",
+        "availability": "InStock",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://btracking.com/wanco-road-signs-tracking-message-control/#service",
+      "name": "Wanco Road Sign Tracking & Remote Message Control",
+      "description": "A comprehensive service to remotely track the GPS location of Wanco road signs and remotely manage/change their displayed messages through the Btracking platform.",
+      "serviceType": [
+        "Asset Tracking Service",
+        "Remote Equipment Control",
+        "IoT Solutions",
+        "Construction Equipment Management"
+      ],
+      "provider": {
+        "@id": "https://btracking.com/#corporation"
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "Wanco"
+      },
+      "isRelatedTo": {
+        "@id": "https://btracking.com/bhw550-wanco-sign-hardwired-tracker/#product"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "19.95",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false,
+          "unitText": "per month"
+        },
+        "description": "Tracking Subscription from $19.95/month."
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Wanco Road Sign Control Features",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Real-Time GPS Location Tracking"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remote Message Control",
+              "description": "Change Wanco sign messaging remotely from any phone or PC."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Theft Prevention & Safety Alerts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wanco Sign Controller Integration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Unified Platform Visibility",
+              "description": "Track signs alongside construction vehicles, machines, and tools in one platform."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

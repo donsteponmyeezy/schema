@@ -7,6 +7,7 @@
       "name": "Btracking",
       "url": "https://btracking.com/",
       "logo": "https://i0.wp.com/btracking.com/wp-content/uploads/2023/09/btrackinglogo_logo.webp?w=2560&ssl=1",
+      "image": "https://btracking.com/wp-content/uploads/2025/10/btracking-social-banner.jpg",
       "telephone": "+1-866-233-0953",
       "address": {
         "@type": "PostalAddress",
@@ -56,6 +57,7 @@
     {
       "@type": "BreadcrumbList",
       "@id": "https://btracking.com/mini-air-trackers/#breadcrumb",
+      "name": "Mini Air Trackers Breadcrumbs",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -121,20 +123,18 @@
           "url": "https://btracking.com/btair-mini-solar-tracker/",
           "image": "https://btracking.com/wp-content/uploads/2025/06/btracking-btair-generator-composite.webp",
           "description": "A rugged, solar-powered Bluetooth tracker that automatically connects to the iPhone Find My Network. Features a long-life solar-rechargeable battery and a tough waterproof enclosure.",
-          "brand": {
-            "@id": "https://btracking.com/#corporation"
-          },
           "offers": {
             "@type": "Offer",
             "url": "https://btracking.com/btair-mini-solar-tracker/",
-            "availability": "https://schema.org/InStock",
+            "price": "99.99",
+            "availability": "InStock",
             "priceCurrency": "USD"
           },
           "additionalProperty": [
             {
               "@type": "PropertyValue",
               "name": "Power Source",
-              "value": "Solar-Rechargeable Battery"</script>
+              "value": "Solar-Rechargeable Battery"
             },
             {
               "@type": "PropertyValue",
@@ -160,14 +160,12 @@
           "url": "https://btracking.com/btmtw-mini-air-tracker/",
           "image": "https://btracking.com/wp-content/uploads/2025/06/btracking-BTMTW-boy-backpack-composite.webp",
           "description": "A mini waterproof Bluetooth tracker and AirTag alternative with a long-life replaceable CR2032 battery. Connects to the iPhone Find My Network for easy tracking of tools, backpacks, and bikes.",
-          "brand": {
-            "@id": "https://btracking.com/#corporation"
-          },
           "offers": {
             "@type": "Offer",
             "url": "https://btracking.com/btmtw-mini-air-tracker/",
-            "availability": "https://schema.org/InStock",
-            "priceCurrency": "USD"
+            "availability": "InStock",
+            "priceCurrency": "USD",
+            "price": "49.99"
           },
           "additionalProperty": [
             {
