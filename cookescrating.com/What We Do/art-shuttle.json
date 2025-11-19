@@ -17,6 +17,7 @@
     "postalCode": "90023",
     "addressCountry": "US"
   },
+  "priceRange": "$$$",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 34.021789,

@@ -1,0 +1,129 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://cookescrating.com/contact/#webpage",
+      "url": "https://cookescrating.com/contact/",
+      "name": "Contact Cooke's Crating & Fine Arts Transportation",
+      "description": "Contact information for Cooke's Crating in Los Angeles. Phone numbers, email addresses for key staff, and warehouse location.",
+      "mainEntity": {
+        "@id": "https://cookescrating.com/#organization"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://cookescrating.com/#organization",
+      "name": "Cooke's Crating & Fine Arts Transportation",
+      "image": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-special-project-1024x576.webp",
+      "url": "https://cookescrating.com/",
+      "telephone": "+1-323-268-5101",
+      "email": "bryan@cookescrating.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3124 E. 11th. Street",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90023",
+        "addressCountry": "US"
+      },
+      "priceRange": "$$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.0224",
+        "longitude": "-118.2166"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "reviewCount": "27"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/cookescrating/",
+        "https://www.instagram.com/cookescrating/?hl=en"
+      ],
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "Bryan Cooke",
+          "jobTitle": "President",
+          "email": "bryan@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Kevin Cooke",
+          "jobTitle": "General Manager",
+          "email": "kevin@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Tori Kato",
+          "jobTitle": "Dispatcher",
+          "email": "tori@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Karin Nystrom",
+          "jobTitle": "Controller",
+          "email": "karin@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Maria Uribe",
+          "jobTitle": "Assistant Manager",
+          "email": "maria@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Gus Puga",
+          "jobTitle": "Dispatcher",
+          "email": "gus@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Kimberly Magna",
+          "jobTitle": "Shipping Estimator",
+          "email": "kimberly@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Abigail Clark",
+          "jobTitle": "Shipping Expediter",
+          "email": "abigail@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Sierra Arguelles",
+          "jobTitle": "Storage Manager",
+          "email": "sierra@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Keli Guerrero",
+          "jobTitle": "Storage Manager",
+          "email": "keli@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Jesus Camacho",
+          "jobTitle": "Storage Registrar",
+          "email": "jesus@cookescrating.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Freddy Anchondo",
+          "jobTitle": "Warehouse Manager"
+        }
+      ]
+    }
+  ]
+}

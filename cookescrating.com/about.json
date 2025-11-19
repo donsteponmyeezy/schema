@@ -19,15 +19,22 @@
       "founder": {
         "@id": "https://cookescrating.com/about/#bryan-cooke"
       },
+      "telephone": "+1-323-268-5101",
+      "email": "bryan@cookescrating.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "3124 E 11th St",
+        "streetAddress": "3124 E. 11th. Street",
         "addressLocality": "Los Angeles",
         "addressRegion": "CA",
         "postalCode": "90023",
         "addressCountry": "US"
       },
-      "image": ""
+      "priceRange": "$$$",
+      "image": [
+        "https://cookescrating.com/wp-content/uploads/2025/11/cookes-social-banner.webp",
+        "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp",
+        "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-walking-man-1000.webp"
+      ],
       "award": "Selected as one of the World's top 75 Art Professionals by Art News (October 2023)",
       "memberOf": [
         {

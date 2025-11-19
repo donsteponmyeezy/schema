@@ -2,95 +2,208 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Person", "Organization"],
-      "@id": "https://cookescrating.com/#person",
-      "name": "Bryan Cooke",
-      "url": "https://cookescrating.com/about/",
-      "image": {
-        "@type": "ImageObject",
-        "@id": "https://cookescrating.com/wp-content/uploads/2023/03/bryan-cooke-photo-450.webp",
-        "url": "https://cookescrating.com/wp-content/uploads/2023/03/bryan-cooke-photo-450.webp",
-        "caption": "CEO Cooke's Crating",
-        "inLanguage": "en-US"
-      },
-      "sameAs": ["https://cookescrating.com"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://cookescrating.com/#website",
-      "url": "https://cookescrating.com",
-      "name": "Cooke's Crating and Fine Arts Transportation Inc.",
-      "publisher": { "@id": "https://cookescrating.com/#person" },
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "WebPage",
+      "@type": "ItemPage",
       "@id": "https://cookescrating.com/project-spotlight/#webpage",
       "url": "https://cookescrating.com/project-spotlight/",
-      "name": "Fine Art Transportation & Installation | Los Angeles",
-      "datePublished": "2023-12-23T13:52:27-05:00",
-      "dateModified": "2024-07-26T02:14:04-05:00",
-      "isPartOf": { "@id": "https://cookescrating.com/#website" },
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "Article",
-      "headline": "Fine Art Transportation & Installation | Los Angeles",
-      "keywords": "fine art transportation",
-      "datePublished": "2023-12-23T13:52:27-05:00",
-      "dateModified": "2024-07-26T02:14:04-05:00",
-      "author": { "@id": "https://cookescrating.com/#person" },
-      "publisher": { "@id": "https://cookescrating.com/#person" },
-      "description": "Cooke's Crating has handled many fine works of art ranging from museum pieces to large sculptures. View our past fine art transportation projects.",
-      "name": "Fine Art Transportation & Installation | Los Angeles",
-      "@id": "https://cookescrating.com/project-spotlight/#richSnippet",
+      "name": "Fine Art Transportation & Installation Project Spotlight",
+      "description": "A case study of Cooke's Crating installing Barbara Carrasco’s monumental mural at Union Station for the Getty Museum’s Pacific Standard Time exhibition.",
+      "primaryImageOfPage": {
+        "@id": "https://cookescrating.com/project-spotlight/#primaryimage"
+      },
       "isPartOf": {
-        "@id": "https://cookescrating.com/project-spotlight/#webpage"
+        "@id": "https://cookescrating.com/#website"
       },
-      "inLanguage": "en-US",
-      "mainEntityOfPage": {
-        "@id": "https://cookescrating.com/project-spotlight/#webpage"
-      },
-      "image": {
-        "@id": "https://cookescrating.com/project-spotlight/#image1"
-      }
+      "about": [
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://cookescrating.com/#organization"
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "L.A. History: A Mexican Perspective",
+          "description": "A monumental 20 x 80-foot mural by Barbara Carrasco.",
+          "creator": {
+            "@type": "Person",
+            "name": "Barbara Carrasco"
+          },
+          "material": "Mural",
+          "artMedium": "Mural",
+          "locationCreated": {
+            "@type": "Place",
+            "name": "Union Station Los Angeles",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Los Angeles",
+              "addressRegion": "CA"
+            }
+          }
+        }
+      ]
     },
     {
       "@type": "ImageGallery",
-      "@id": "https://cookescrating.com/project-spotlight/#gallery-getty",
-      "name": "Getty Museum's Pacific Standard Time Exhibition",
-      "description": "Cooke’s art installation in October 2017, inside L.A.’s historic Union Station, of Barbara Carrasco’s monumental 20 x 80-foot mural. The mural participated in the Getty Museum’s Pacific Standard Time exhibition.",
+      "name": "Getty Museum Pacific Standard Time Installation Gallery",
+      "description": "Photos of Cooke's Crating art handlers installing the 80-foot Barbara Carrasco mural at Union Station.",
+      "provider": {
+        "@id": "https://cookescrating.com/#organization"
+      },
       "image": [
         {
           "@type": "ImageObject",
-          "@id": "https://cookescrating.com/project-spotlight/#image1",
           "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-17.webp",
-          "name": "Large Wall Art Install-17",
-          "caption": "Preparing to install a mural in Los Angele's Union Station"
+          "caption": "Preparing to install a mural in Los Angeles Union Station"
         },
         {
           "@type": "ImageObject",
           "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-15.webp",
-          "name": "Large Wall Art Install-15",
-          "caption": "Art Installation LA"
+          "caption": "Precision fine art lifting and placement"
         },
         {
           "@type": "ImageObject",
-          "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-16.webp",
-          "name": "Large Wall Art Install-16",
-          "caption": "LA Art Installation"
+          "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-6.webp",
+          "caption": "Cooke's Crating team coordinating mural installation"
         },
         {
           "@type": "ImageObject",
-          "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-5.webp",
-          "name": "Large Wall Art Install-5",
-          "caption": "Art Installation Company in Los Angeles"
+          "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-4.webp",
+          "caption": "Art handlers maneuvering large scale artwork"
         },
         {
           "@type": "ImageObject",
-          "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-2.webp",
-          "name": "Large Wall Art Install-2",
-          "caption": "Large Art Handling"
+          "url": "https://cookescrating.com/wp-content/uploads/2023/12/Large-Wall-Art-Install-9.webp",
+          "caption": "Final alignment of the Barbara Carrasco mural"
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://cookescrating.com/#organization",
+      "name": "Cooke's Crating & Fine Arts Transportation",
+      "url": "https://cookescrating.com/",
+      "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+      "image": [
+        "https://cookescrating.com/wp-content/uploads/2025/11/cookes-social-banner.webp",
+        "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp",
+        "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-walking-man-1000.webp"
+      ],
+      "description": "Los Angeles's premier fine art shipping, installation, and storage company. Providing museum-quality crating, climate-controlled storage, and secure logistics for museums, galleries, and private collectors since 1975.",
+      "foundingDate": "1975",
+      "telephone": "+1-323-268-5101",
+      "email": "info@cookescrating.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3124 E. 11th. Street",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90023",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.021789,
+        "longitude": -118.208547
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/cookescrating/",
+        "https://www.instagram.com/cookescrating/"
+      ],
+      "priceRange": "$$$",
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "Bryan Cooke",
+          "jobTitle": "President"
+        },
+        {
+          "@type": "Person",
+          "name": "Kevin Cooke",
+          "jobTitle": "General Manager"
+        },
+        {
+          "@type": "Person",
+          "name": "Karin Nystrom",
+          "jobTitle": "Controller"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fine Art Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fine Art Storage",
+              "description": "100,000 square feet of high security, climate-controlled fine art storage secured by video surveillance and armed response."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fine Art Installation",
+              "description": "Professional rigging and installation for large-scale sculptures and delicate museum exhibitions."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Art Packing & Crating",
+              "description": "Custom museum-quality crating and packing services."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Art Shuttle",
+              "description": "Climate-controlled, air-ride shuttle service between Los Angeles and San Francisco."
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "reviewCount": "27"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Alicia B. Thomas",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Palm Springs Art Museum"
+            }
+          },
+          "reviewBody": "You have our unending appreciation and gratitude for the Herculanean effort, not to mention patience, it took to install the Thomas Houseago at our front door."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Zane Lewis",
+            "jobTitle": "Artist"
+          },
+          "reviewBody": "The crate arrived in Denmark the other week safe and sound and was beautifully constructed and packed. The gallerist sent me an email about how impressed he was with the quality of the entire packaging."
         }
       ]
     }
