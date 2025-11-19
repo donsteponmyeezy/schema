@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://cookescrating.com/#organization",
+  "name": "Cooke's Crating & Fine Arts Transportation",
+  "url": "https://cookescrating.com/art-packing-and-crating/",
+  "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+  "image": [
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-refective-ball-1500.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-art-handlers-transporters-mural-1500.webp"
+  ],
+  "description": "Cooke's Crating has offered high quality fine art packing & fine art crating for over 50 years with a vast portfolio of paintings & large sculptures. Family-owned since 1975.",
+  "telephone": "+1-323-268-5101",
+  "email": "info@cookescrating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3124 E. 11th. Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90023",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.021789,
+    "longitude": -118.208547
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    }
+  ],
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.facebook.com/cookescrating/",
+    "https://www.instagram.com/cookescrating/?hl=en",
+    "https://cookescrating.com/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Fine Art Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Fine Art Packing",
+          "description": "Climatized clean room packing for paintings and fragile items."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Fine Art Crating",
+          "description": "Custom museum travel crates and one-way crates for sculptures and high-value artwork."
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "reviewCount": "27"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Alicia B. Thomas"
+      },
+      "reviewBody": "You have our unending appreciation and gratitude for the Herculanean effort, not to mention patience, it took to install the Thomas Houseago at our front door."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Zane Lewis"
+      },
+      "reviewBody": "I just wanted to send a personal thank you. The crate arrived in Denmark the other week safe and sound and was beautifully constructed and packed."
+    }
+  ]
+}

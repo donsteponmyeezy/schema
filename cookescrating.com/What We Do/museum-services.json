@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://cookescrating.com/#organization",
+  "name": "Cooke's Crating & Fine Arts Transportation",
+  "url": "https://cookescrating.com/museum-services/",
+  "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+  "image": [
+    "https://cookescrating.com/wp-content/uploads/2024/02/cookes-crating-fine-musemun-art-handlers-blue-boy.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-musemun-art-handlers-1500.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-refective-ball-1500.webp"
+  ],
+  "description": "Premier museum art handling, exhibition logistics, and climate-controlled transportation services. Trusted by world-renowned museums for the conservation and movement of masterpieces.",
+  "telephone": "+1-323-268-5101",
+  "email": "info@cookescrating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3124 E. 11th. Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90023",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.021789,
+    "longitude": -118.208547
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    },
+    {
+      "@type": "Continent",
+      "name": "North America"
+    }
+  ],
+  "priceRange": "$$$",
+  "sameAs": [
+    "https://www.facebook.com/cookescrating/",
+    "https://www.instagram.com/cookescrating/?hl=en",
+    "https://cookescrating.com/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Museum Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Exhibition Installation & Logistics",
+          "description": "Collaborative installation and movement of exhibitions for museums, ensuring preservation standards are met."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Climate-Controlled Transportation",
+          "description": "Specialized transport for sensitive museum collections requiring strict environmental controls."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Conservation-Grade Crating",
+          "description": "Custom crating solutions designed to museum standards for the safe transport of masterpieces."
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "reviewCount": "27"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "James Harchar",
+        "jobTitle": "Exhibition Specialist",
+        "worksFor": {
+          "@type": "Museum",
+          "name": "United States Holocaust Memorial Museum"
+        }
+      },
+      "reviewBody": "Peter, Lee, Antonio and Alan were a fantastic group to work with and one of the best setup crews I’ve had. Their professional conduct, hard work and patience during the sometimes difficult process made the experience enjoyable and was critical in keeping the install on schedule."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dawn Minegar",
+        "jobTitle": "Registrar",
+        "worksFor": {
+          "@type": "Museum",
+          "name": "Laguna Art Museum"
+        }
+      },
+      "reviewBody": "Kevin was fantastic to work with and was a great help in making all of shipping and packing arrangements go smoothly. Peter and Mark did an amazing job! And they handled the Lender’s situation really well."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Alicia B. Thomas",
+        "worksFor": {
+          "@type": "Museum",
+          "name": "Palm Springs Art Museum"
+        }
+      },
+      "reviewBody": "You have our unending appreciation and gratitude for the Herculanean effort, not to mention patience, it took to install the Thomas Houseago at our front door."
+    }
+  ]
+}

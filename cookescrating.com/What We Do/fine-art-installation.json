@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://cookescrating.com/#organization",
+  "name": "Cooke's Crating & Fine Arts Transportation",
+  "url": "https://cookescrating.com/fine-art-installation/",
+  "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+  "image": [
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-art-handlers-transporters-installation-1500px.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/Cookes-Crating-Fine-Art-Handlers-Transporters-redart-1500px.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-art-handlers-transporters-install-1500px.webp"
+  ],
+  "description": "Cooke's Crating is the premiere fine art installation company in Los Angeles. We specialize in hanging delicate paintings, rigging large-scale sculptures, and managing complex museum exhibition setups.",
+  "telephone": "+1-323-268-5101",
+  "email": "info@cookescrating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3124 E. 11th. Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90023",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.021789,
+    "longitude": -118.208547
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    }
+  ],
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.facebook.com/cookescrating/",
+    "https://www.instagram.com/cookescrating/?hl=en",
+    "https://cookescrating.com/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Fine Art Installation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Art Installation",
+          "description": "Professional hanging and placement of paintings and delicate artworks."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Sculpture Rigging",
+          "description": "Technical rigging and installation for large-scale and monumental sculptures."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Museum Exhibition Setup",
+          "description": "Complete setup and installation services for museum exhibits and gallery shows."
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "reviewCount": "27"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Alicia B. Thomas"
+      },
+      "reviewBody": "You have our unending appreciation and gratitude for the Herculanean effort, not to mention patience, it took to install the Thomas Houseago at our front door."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "James Harchar"
+      },
+      "reviewBody": "Peter, Lee, Antonio and Alan were a fantastic group to work with and one of the best setup crews I’ve had. Their professional conduct, hard work and patience... was critical in keeping the install on schedule."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "John Macias"
+      },
+      "reviewBody": "They did a wonderful job, despite all the obstacles they faced while installing the artwork in the museum."
+    }
+  ]
+}

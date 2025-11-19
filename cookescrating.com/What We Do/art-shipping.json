@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://cookescrating.com/#organization",
+  "name": "Cooke's Crating & Fine Arts Transportation",
+  "url": "https://cookescrating.com/art-shipping/",
+  "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+  "image": [
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-art-handlers-transporters-flatbedtruck-1500.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-art-handlers-transporters-crane-1500px.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-fine-art-handlers-transporters-red-truck-1500px.webp"
+  ],
+  "description": "Cooke's Crating provides high-end fine art shipping services in Los Angeles. We ship art domestically and internationally via air or truck, offering secure logistics for iconic works and sculptures.",
+  "telephone": "+1-323-268-5101",
+  "email": "info@cookescrating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3124 E. 11th. Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90023",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.021789,
+    "longitude": -118.208547
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    },
+    {
+      "@type": "Place",
+      "name": "International"
+    }
+  ],
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.facebook.com/cookescrating/",
+    "https://www.instagram.com/cookescrating/?hl=en",
+    "https://cookescrating.com/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Fine Art Shipping Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Domestic Art Shipping",
+          "description": "Secure art transportation by air or truck throughout the United States."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "International Art Shipping",
+          "description": "Global art logistics via the ICEFAT network, serving 34 countries worldwide."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Art Shuttle",
+          "description": "Specialized shuttle services for fine art transport."
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "reviewCount": "27"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Zane Lewis"
+      },
+      "reviewBody": "I just wanted to send a personal thank you. The crate arrived in Denmark the other week safe and sound and was beautifully constructed and packed."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "James Harchar"
+      },
+      "reviewBody": "Peter, Lee, Antonio and Alan were a fantastic group to work with and one of the best setup crews I’ve had. Their professional conduct, hard work and patience... was critical in keeping the install on schedule."
+    }
+  ]
+}

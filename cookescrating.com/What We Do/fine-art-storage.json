@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://cookescrating.com/#organization",
+  "name": "Cooke's Crating & Fine Arts Transportation",
+  "url": "https://cookescrating.com/fine-art-storage/",
+  "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+  "image": [
+    "https://cookescrating.com/wp-content/uploads/2024/01/cookes-crating-storage.webp",
+    "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-storage-1000.webp"
+  ],
+  "description": "Cooke's Crating provides high-security fine art storage in Los Angeles with 65,000 sq ft of climate-controlled space and 35,000 sq ft of non-climate storage. Features include 24/7 monitoring, video surveillance, and barcode inventory tracking.",
+  "telephone": "+1-323-268-5101",
+  "email": "info@cookescrating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3124 E. 11th. Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90023",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.021789,
+    "longitude": -118.208547
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    }
+  ],
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.facebook.com/cookescrating/",
+    "https://www.instagram.com/cookescrating/?hl=en",
+    "https://cookescrating.com/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Fine Art Storage Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Climate-Controlled Art Storage",
+          "description": "Temperature and humidity regulated storage spanning 65,000 square feet for sensitive artworks."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Secure Non-Climate Storage",
+          "description": "35,000 square feet of secure, non-climate controlled storage space."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Inventory Management",
+          "description": "Barcode-labeled tracking with robust server and cloud backups."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "24/7 Security Monitoring",
+          "description": "Central Station monitored burglar/fire alarms and video surveillance with 30-day recording."
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "reviewCount": "27"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dawn Minegar",
+        "jobTitle": "Registrar",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Laguna Art Museum"
+        }
+      },
+      "reviewBody": "Kevin was fantastic to work with and was a great help in making all of shipping and packing arrangements go smoothly."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Caroline Mujica-Parodi",
+        "jobTitle": "Art Consultant"
+      },
+      "reviewBody": "Many thanks to Dave and Keenan for their help. I work with art handlers across the country and was impressed with their knowledge and professionalism in handling my client's art work."
+    }
+  ]
+}

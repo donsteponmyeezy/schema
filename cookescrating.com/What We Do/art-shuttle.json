@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://cookescrating.com/#organization",
+  "name": "Cooke's Crating & Fine Arts Transportation",
+  "url": "https://cookescrating.com/art-shuttle/",
+  "logo": "https://cookescrating.com/wp-content/uploads/2023/02/cookes-crating-logo-oulined-white-bg.svg",
+  "image": "https://cookescrating.com/wp-content/uploads/2023/03/cookes-crating-art-shuttle-1500.webp",
+  "description": "Regularly scheduled fine art shuttle service between Los Angeles and San Francisco. Secure, climate-controlled, air-ride transportation with GPS tracking and optional connections to the Pacific Northwest.",
+  "telephone": "+1-323-268-5101",
+  "email": "info@cookescrating.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3124 E. 11th. Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90023",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.021789,
+    "longitude": -118.208547
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles",
+      "sameAs": "https://en.wikipedia.org/wiki/Los_Angeles"
+    },
+    {
+      "@type": "City",
+      "name": "San Francisco",
+      "sameAs": "https://en.wikipedia.org/wiki/San_Francisco"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Pacific Northwest"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Art Transportation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "LA to San Francisco Art Shuttle",
+          "description": "9 to 12 scheduled runs yearly using unmarked, climate-controlled, air-ride trucks with cellular and GPS tracking.",
+          "serviceOutput": "Secure Art Transportation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pacific Northwest Shuttle Connection",
+          "description": " specialized art shipping connection serving the Pacific Northwest region."
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "reviewCount": "27"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Caroline Mujica-Parodi",
+        "jobTitle": "Art Consultant"
+      },
+      "reviewBody": "Many thanks to Dave and Keenan for their help. I work with art handlers across the country and was impressed with their knowledge and professionalism in handling my client's art work."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "John Macias",
+        "worksFor": {
+          "@type": "Museum",
+          "name": "San Gabriel Mission Museum"
+        }
+      },
+      "reviewBody": "Thank you for sending out Pete and Mark to complete the job at the San Gabriel Mission last week. They did a wonderful job, despite all the obstacles they faced while installing the artwork in the museum."
+    }
+  ]
+}

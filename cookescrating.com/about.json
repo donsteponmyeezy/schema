@@ -2,69 +2,96 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Person", "Organization"],
-      "@id": "https://cookescrating.com/#person",
-      "name": "Bryan Cooke",
-      "url": "https://cookescrating.com/about/",
-      "image": {
-        "@type": "ImageObject",
-        "@id": "https://cookescrating.com/wp-content/uploads/2023/03/bryan-cooke-photo-450.webp",
-        "url": "https://cookescrating.com/wp-content/uploads/2023/03/bryan-cooke-photo-450.webp",
-        "caption": "CEO Cooke's Crating",
-        "inLanguage": "en-US"
-      },
-      "sameAs": ["https://cookescrating.com"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://cookescrating.com/#website",
-      "url": "https://cookescrating.com",
-      "name": "Cooke's Crating and Fine Arts Transportation Inc.",
-      "publisher": { "@id": "https://cookescrating.com/#person" },
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://cookescrating.com/wp-content/uploads/2023/03/art-can-kill-bryan-cooke-bookcover-3d.webp",
-      "url": "https://cookescrating.com/wp-content/uploads/2023/03/art-can-kill-bryan-cooke-bookcover-3d.webp",
-      "width": 644,
-      "height": 722,
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "WebPage",
+      "@type": "AboutPage",
       "@id": "https://cookescrating.com/about/#webpage",
       "url": "https://cookescrating.com/about/",
-      "name": "About Us | LA Fine Art Storage & Shipping",
-      "datePublished": "2022-11-16T14:11:35-05:00",
-      "dateModified": "2024-08-20T08:59:42-05:00",
-      "isPartOf": { "@id": "https://cookescrating.com/#website" },
-      "primaryImageOfPage": {
-        "@id": "https://cookescrating.com/wp-content/uploads/2023/09/cookes-crating-fine-art-handlers-transporters-museum-1000.webp"
-      },
-      "inLanguage": "en-US"
+      "name": "About Cooke's Crating and Fine Arts Transportation",
+      "description": "Family-owned since 1975. The premier fine art shipping, installation, and storage company in Los Angeles. Learn about our history and founder Bryan Cooke.",
+      "mainEntity": {
+        "@id": "https://cookescrating.com/#organization"
+      }
     },
     {
-      "@type": "Article",
-      "headline": "About Us | LA Fine Art Storage & Shipping",
-      "datePublished": "2022-11-16T14:11:35-05:00",
-      "dateModified": "2024-08-20T08:59:42-05:00",
+      "@type": "ProfessionalService",
+      "@id": "https://cookescrating.com/#organization",
+      "name": "Cooke's Crating & Fine Arts Transportation",
+      "foundingDate": "1975",
+      "founder": {
+        "@id": "https://cookescrating.com/about/#bryan-cooke"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3124 E 11th St",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90023",
+        "addressCountry": "US"
+      },
+      "image": ""
+      "award": "Selected as one of the World's top 75 Art Professionals by Art News (October 2023)",
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "ICEFAT",
+          "url": "http://www.icefat.org/"
+        },
+        {
+          "@type": "Organization",
+          "name": "ARCS",
+          "url": "https://www.arcsinfo.org/"
+        },
+        {
+          "@type": "Organization",
+          "name": "PACCIN",
+          "url": "https://www.paccin.org/"
+        }
+      ],
+      "knowsAbout": [
+        "J. Paul Getty Museum",
+        "Huntington Museum",
+        "LACMA",
+        "Museum of Contemporary Art (MOCA)"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cookescrating.com/about/#bryan-cooke",
+      "name": "Bryan Cooke",
+      "jobTitle": "President & Founder",
+      "image": "https://cookescrating.com/wp-content/uploads/2023/03/bryan-cooke-photo-450.webp",
+      "description": "Bryan Cooke has been involved in fine art services since 1969. He attended Claremont Graduate School and holds an MFA from the University of Southern California. He founded Cooke's Crating in 1975.",
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Southern California",
+          "sameAs": "https://www.usc.edu/"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Claremont Graduate School"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://cookescrating.com/#organization"
+      },
       "author": {
-        "@id": "https://cookescrating.com/#person",
-        "name": "Bryan Cooke"
-      },
-      "publisher": { "@id": "https://cookescrating.com/#person" },
-      "description": "Our expertise is shipping fine art across globe. Cooke's Crating, based in Los Angeles, CA has 50 years of experience shipping & storing fine art.",
-      "name": "About Us | LA Fine Art Storage & Shipping",
-      "@id": "https://cookescrating.com/about/#richSnippet",
-      "isPartOf": { "@id": "https://cookescrating.com/about/#webpage" },
-      "image": {
-        "@id": "https://cookescrating.com/wp-content/uploads/2023/03/art-can-kill-bryan-cooke-bookcover-3d.webp"
-      },
-      "inLanguage": "en-US",
-      "mainEntityOfPage": {
-        "@id": "https://cookescrating.com/about/#webpage"
+        "@id": "https://cookescrating.com/about/#book"
       }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://cookescrating.com/about/#book",
+      "name": "Art Can Kill",
+      "author": {
+        "@id": "https://cookescrating.com/about/#bryan-cooke"
+      },
+      "image": "https://cookescrating.com/wp-content/uploads/2023/03/art-can-kill-bryan-cooke-bookcover-3d.webp",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Art World Publishing",
+        "url": "https://artworldpublishing.com/"
+      },
+      "description": "A behind-the-scenes eyewitness view of 50 years of art market growth, exploring art ethics and the creative spirit."
     }
   ]
 }
