@@ -1,4 +1,3 @@
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -33,20 +32,20 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/#webpage",
-      "url": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/",
-      "name": "VPS Hosting vs. Shared Hosting: The Best Choice for Your WordPress Site",
-      "description": "VPS Hosting is the best choice over shared hosting for WordPress site. A DePinho Design recommendation!",
+      "@id": "https://depinhodesign.com/why-website-accessibility-matters/#webpage",
+      "url": "https://depinhodesign.com/why-website-accessibility-matters/",
+      "name": "Website Accessibility | Putnam County NY",
+      "description": "Make your website accessible to everyone. Learn why website accessibility is crucial for legal compliance, user experience, SEO, and your brand's reputation.",
       "isPartOf": {
         "@id": "https://depinhodesign.com/#website"
       },
       "breadcrumb": {
-        "@id": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/#breadcrumb"
+        "@id": "https://depinhodesign.com/why-website-accessibility-matters/#breadcrumb"
       }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/#breadcrumb",
+      "@id": "https://depinhodesign.com/why-website-accessibility-matters/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -68,25 +67,25 @@
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/",
-            "name": "VPS Hosting vs. Shared Hosting: The Best Choice for Your WordPress Site"
+            "@id": "https://depinhodesign.com/why-website-accessibility-matters/",
+            "name": "Why Website Accessibility Matters"
           }
         }
       ]
     },
     {
       "@type": "BlogPosting",
-      "@id": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/#article",
-      "headline": "VPS Hosting vs. Shared Hosting: The Best Choice for Your WordPress Site",
-      "description": "VPS Hosting is the best choice over shared hosting for WordPress site. A DePinho Design recommendation!",
+      "@id": "https://depinhodesign.com/why-website-accessibility-matters/#article",
+      "headline": "Why Website Accessibility Matters",
+      "description": "Make your website accessible to everyone. Learn why website accessibility is crucial for legal compliance, user experience, SEO, and your brand's reputation.",
       "image": {
         "@type": "ImageObject",
-        "url": "https://depinhodesign.com/wp-content/uploads/2024/11/vps-hosting-for-WordPress.webp",
+        "url": "https://depinhodesign.com/wp-content/uploads/2025/04/websitedesign-depinhodesign-Web-Accessibility.webp",
         "width": 684,
         "height": 474
       },
-      "datePublished": "2025-05-07T15:01:00+00:00",
-      "dateModified": "2025-05-07T15:01:00+00:00",
+      "datePublished": "2025-09-28T22:51:28+00:00",
+      "dateModified": "2025-09-28T22:51:28+00:00",
       "author": {
         "@id": "https://depinhodesign.com/#organization"
       },
@@ -94,17 +93,9 @@
         "@id": "https://depinhodesign.com/#organization"
       },
       "mainEntityOfPage": {
-        "@id": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/#webpage"
+        "@id": "https://depinhodesign.com/why-website-accessibility-matters/#webpage"
       },
-      "articleSection": "Website Tips",
-      "keywords": [
-        "VPS Hosting",
-        "Shared Hosting",
-        "WordPress",
-        "Elementor",
-        "Page Builders"
-      ]
+      "articleSection": "Website Tips"
     }
   ]
 }
-</script>

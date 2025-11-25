@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-845-621-8546",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Brewster" },
+        { "@type": "City", "name": "Yorktown Heights" }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://depinhodesign.com/photography/#webpage",
+      "url": "https://depinhodesign.com/photography/",
+      "name": "Photography Portfolio | Portrait, Product & Food Photography | Mahopac NY",
+      "description": "Professional photography services in Putnam County including portrait, real estate, food, and product photography. In-studio and on-location video services available.",
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/photography/#gallery"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/photography/#breadcrumb"
+      },
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      }
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://depinhodesign.com/photography/#gallery",
+      "name": "DePinho Design Photography Portfolio",
+      "author": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "image": [
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://depinhodesign.com/wp-content/uploads/2019/09/photography-doctor-jimmy-881.jpg",
+          "name": "Portrait Photography",
+          "caption": "Professional portrait photography by DePinho Graphic Design"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://depinhodesign.com/wp-content/uploads/2019/09/photography-realestate-881.jpg",
+          "name": "Real Estate Photography",
+          "caption": "High-quality real estate photography for property listings"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://depinhodesign.com/wp-content/uploads/2019/09/photography-lambchops-depinhodesign-881.jpg",
+          "name": "Food Photography - Lambchops",
+          "caption": "Professional food photography for restaurants and menus"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://depinhodesign.com/wp-content/uploads/2019/09/photography-product-helicopter-881.jpg",
+          "name": "Product Photography - Helicopter Model",
+          "caption": "Detailed product photography for e-commerce and catalogs"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://depinhodesign.com/wp-content/uploads/2019/09/photography-eventprom-dePinhodesign-881.jpg",
+          "name": "Event Photography",
+          "caption": "On-location event photography services"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://depinhodesign.com/wp-content/uploads/2024/10/depinho-design-Photography-Chelsea-Pier-Debbie-1.webp",
+          "name": "Editorial Photography - Chelsea Piers",
+          "caption": "Editorial style photography by DePinho Design"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/photography/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/photography/",
+            "name": "Photography Portfolio | Portrait, Product & Food Photography | Mahopac NY"
+          }
+        }
+      ]
+    }
+  ]
+}
