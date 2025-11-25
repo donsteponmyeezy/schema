@@ -1,0 +1,182 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://depinhodesign.com/services-overview/#webpage",
+      "url": "https://depinhodesign.com/services-overview/",
+      "name": "Our Creative & Marketing Services | DePinho Graphic Design",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "description": "Explore our comprehensive suite of services including website design, SEO, graphic design, branding, and digital marketing for businesses in the Hudson Valley.",
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/services-overview/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/services-overview/#offercatalog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/services-overview/#breadcrumb",
+      "name": "Breadcrumb List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/services-overview/",
+            "name": "Our Services"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#professionalService",
+      "name": "DePinho Graphic Design",
+      "image": "https://depinhodesign.com/wp-content/uploads/2021/07/depinho-design-website-bookmark.jpg",
+      "url": "https://depinhodesign.com/",
+      "telephone": "+1-845-621-8546",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      }
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://depinhodesign.com/services-overview/#offercatalog",
+      "name": "Services",
+      "provider": {
+        "@id": "https://depinhodesign.com/#professionalService"
+      },
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Website Design",
+            "url": "https://depinhodesign.com/web-design-services/"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "E-Commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Content Writing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SEO Solutions"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digital Marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Graphic Design"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Book Cover Design"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Logo Design"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Branding Design"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Printing & Signage"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Portrait Photography"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Product Photography"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Food Photography"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Photo Retouching"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Video Production"
+          }
+        }
+      ]
+    }
+  ]
+}
