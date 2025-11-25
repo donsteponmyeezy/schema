@@ -43,126 +43,6 @@
         "https://www.facebook.com/depinhodesign/",
         "https://www.linkedin.com/company/depinho-design",
         "https://www.instagram.com/depinho_design/"
-      ],
-      "workExample": [
-        {
-          "@type": "WebSite",
-          "name": "Hudson House River Inn",
-          "url": "https://hudsonhouseinn.com",
-          "description": "Restaurant Business: Web design, food photography, SEO, and hosting.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Cookes Crating",
-          "url": "https://cookescrating.com",
-          "description": "Fine Art Logistics: Website design, logo, and on-page SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Tvardi Therapeutics",
-          "url": "https://tvarditherapeutics.com",
-          "description": "Health Industry: Web design, logo design, and marketing.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Supreme Seams Automotive",
-          "url": "https://supremeseamsautomotive.com",
-          "description": "Automotive Industry: Custom web design, retouching, and SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Victa6 Apparel",
-          "url": "https://victa6.com/home",
-          "description": "Clothing Industry: Custom WooCommerce website and product development.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Emi's Garden",
-          "url": "https://emisgarden.com",
-          "description": "Food Industry: E-Commerce website with WordPress and Shopify integration.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "AD Capital Finance",
-          "url": "https://adcapitalfinance.com",
-          "description": "Financial Industry: Website design, copywriting, and digital marketing.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Apricity Health",
-          "url": "https://apricity-health.com/",
-          "description": "Healthcare: Web design, logo design, and branding.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "UPIC Cancer",
-          "url": "https://upic-cancer.org/",
-          "description": "Academic Institution: Website design, translation, and SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Walter's Cake Art",
-          "url": "https://walterscakeart.com",
-          "description": "Small Business: HTML website, photography, and SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Putnam Handyman Services",
-          "url": "https://putnamhandymanservices.com/",
-          "description": "Construction Industry: Website design and SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Psychoteria",
-          "url": "https://psychoteria.com",
-          "description": "Music Industry: Website design, logo design, and SoundCloud integration.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Allcare Orthotic and Prosthetic Services",
-          "url": "https://allcareoandp.com",
-          "description": "Healthcare / Prosthetics: Web design and SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Peter Tenzer Photography",
-          "description": "Website Portfolio: Web design and logo design.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "A&D Service Group",
-          "url": "https://adservicegroup.com",
-          "description": "Landscape Contractor: Website design and photography.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Mars Properties",
-          "url": "https://marspropertiesllc.com",
-          "description": "Property Management: Website design and marketing.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        },
-        {
-          "@type": "WebSite",
-          "name": "Talis Jewels",
-          "url": "https://talisjewels.com",
-          "description": "Small Business: Website design and SEO.",
-          "author": { "@id": "https://depinhodesign.com/#organization" }
-        }
       ]
     },
     {
@@ -189,19 +69,143 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
-          "item": "https://depinhodesign.com/"
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Services",
-          "item": "https://depinhodesign.com/services-overview/"
+          "item": {
+            "@id": "https://depinhodesign.com/website-design-development-near-me/",
+            "name": "Web Design Portfolio"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://depinhodesign.com/website-design-development-near-me/#portfolio",
+      "name": "DePinho Design Web Design Portfolio",
+      "description": "A collection of custom website design and development projects for clients across diverse industries including healthcare, hospitality, and e-commerce.",
+      "author": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "workExample": [
+        {
+          "@type": "WebSite",
+          "name": "Hudson House River Inn",
+          "url": "https://hudsonhouseinn.com",
+          "description": "Restaurant Business: Web design, food photography, SEO, NAP listings, email marketing, and hosting."
         },
         {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Web Design Portfolio"
+          "@type": "WebSite",
+          "name": "Cookes Crating",
+          "url": "https://cookescrating.com",
+          "description": "Fine Art Logistics: Website design and development, logo design, on-page SEO, and marketing."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Tvardi Therapeutics",
+          "url": "https://tvarditherapeutics.com",
+          "description": "Health Industry: Web design, logo design, on-page SEO, and website marketing."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Supreme Seams Automotive",
+          "url": "https://supremeseamsautomotive.com",
+          "description": "Automotive Industry: Custom web design, photo retouching, logo design, and SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Victa6 Apparel",
+          "url": "https://victa6.com/home",
+          "description": "Clothing Industry: Custom WooCommerce website, product development, and logo design."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Emi's Garden",
+          "url": "https://emisgarden.com",
+          "description": "Food Industry: E-Commerce website with full integration between WordPress and Shopify."
+        },
+        {
+          "@type": "WebSite",
+          "name": "AD Capital Finance",
+          "url": "https://adcapitalfinance.com",
+          "description": "Financial Industry: Website design, logo design, copy writing, and on-page SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Apricity Health",
+          "url": "https://apricity-health.com/",
+          "description": "Healthcare: Web design, logo design, branding, business cards and hosting."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Errol Antzis",
+          "url": "https://errolantzis.com",
+          "description": "Personal Website: Web design, copy writing, and page SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Curry Automotive",
+          "url": "https://curryautomotivecareers.com",
+          "description": "Automobile Industry: Web design, copy writing, and page SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Opa Health",
+          "url": "https://opahealth.org/",
+          "description": "Non-Profit / Healthcare: Website design, logo design, donation system, and hosting."
+        },
+        {
+          "@type": "WebSite",
+          "name": "UPIC Cancer",
+          "url": "https://upic-cancer.org/",
+          "description": "Academic Institution: Website design, logo design, copywriting, language translation, and SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Walter's Cake Art",
+          "url": "https://walterscakeart.com",
+          "description": "Small Business: HTML website, website design, food photography, and SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Putnam Handyman Services",
+          "url": "https://putnamhandymanservices.com/",
+          "description": "Construction Industry: Website design, copy writing, and page SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Psychoteria",
+          "url": "https://psychoteria.com",
+          "description": "Music Industry: Website design, logo design, SoundCloud integration, and hosting."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Allcare Orthotic and Prosthetic Services",
+          "url": "https://allcareoandp.com",
+          "description": "Healthcare / Prosthetics: Web design, copywriting, and on-page SEO."
+        },
+        {
+          "@type": "WebSite",
+          "name": "A&D Service Group",
+          "url": "https://adservicegroup.com",
+          "description": "Landscape Contractor: Website design, photography, SEO, and email marketing."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Mars Properties",
+          "url": "https://marspropertiesllc.com",
+          "description": "Property Management: Website design, photography, SEO, and hosting."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Talis Jewels",
+          "url": "https://talisjewels.com",
+          "description": "Small Business: Website design, photography, SEO, and hosting."
         }
       ]
     },

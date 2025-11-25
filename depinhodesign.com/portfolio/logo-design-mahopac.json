@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-845-621-8546",
+      "areaServed": [
+        "Westchester County",
+        "Putnam County",
+        "Hudson Valley",
+        "Southern Connecticut"
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/logo-design-mahopac/#webpage",
+      "url": "https://depinhodesign.com/logo-design-mahopac/",
+      "name": "Logo Design | Graphic Design | Putnam & Westchester County",
+      "description": "Professional logo design services based in Mahopac, NY. We deliver creative, vector-based visual identities for businesses in Putnam and Westchester counties.",
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/logo-design-mahopac/#portfolio"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/logo-design-mahopac/#breadcrumb"
+      },
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://depinhodesign.com/logo-design-mahopac/#portfolio",
+      "name": "DePinho Design Logo Portfolio",
+      "headline": "Logo Design Services for Westchester, Hudson Valley, and Southern Connecticut",
+      "description": "A comprehensive portfolio of custom logo designs and brand identities. Deliverables include high-resolution vector files, color variations, and typography guides.",
+      "genre": "Graphic Design",
+      "author": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "workExample": [
+        {
+          "@type": "VisualArtwork",
+          "name": "Yuka's Restaurant Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2023/02/portfolio-yukas-logo-depinhodesign-.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Apricity Health Logo",
+          "artform": "Brand Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-apricity.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Allcare Orthotic and Prosthetic Services Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-allcare.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Tvardi Therapeutics Logo",
+          "artform": "Corporate Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2022/11/portfolio-logo-depinhodesign-tvardi-1.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Cibo Pelle Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-cibopelle.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Cobble Creek Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-coble.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "A&D Service Group Logo",
+          "artform": "Brand Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2022/11/portfolio-logo-depinhodesign-adsg.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "BioTree Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-biotree.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Phatburn Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-phatburn.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Walter's Cake Art Logo",
+          "artform": "Logo Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-walter.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Metamark Logo",
+          "artform": "Corporate Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/logo-portfolio-depinhodesign-metamark.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/logo-design-mahopac/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/services/",
+            "name": "Services"
+          }
+        }
+      ]
+    }
+  ]
+}
