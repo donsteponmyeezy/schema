@@ -1,4 +1,3 @@
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -36,8 +35,10 @@
         { "@type": "AdministrativeArea", "name": "Westchester County" },
         { "@type": "AdministrativeArea", "name": "Putnam County" },
         { "@type": "AdministrativeArea", "name": "Hudson Valley" },
-        { "@type": "AdministrativeArea", "name": "Southern Connecticut" },
-        { "@type": "City", "name": "Danbury" }
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Brewster" },
+        { "@type": "City", "name": "Yorktown Heights" }
       ],
       "priceRange": "$$",
       "sameAs": [
@@ -70,19 +71,26 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
-          "item": "https://depinhodesign.com/"
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Services Overview",
-          "item": "https://depinhodesign.com/services-overview/"
+          "item": {
+            "@id": "https://depinhodesign.com/services/",
+            "name": "Services"
+          }
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Printing Services"
+          "item": {
+            "@id": "https://depinhodesign.com/printing-services/",
+            "name": "Printing Services"
+          }
         }
       ]
     },
@@ -98,7 +106,10 @@
       "areaServed": [
         { "@type": "AdministrativeArea", "name": "Westchester County" },
         { "@type": "AdministrativeArea", "name": "Putnam County" },
-        { "@type": "AdministrativeArea", "name": "Southern Connecticut" }
+        { "@type": "AdministrativeArea", "name": "Southern Connecticut" },
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Fairfield" }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -141,4 +152,3 @@
     }
   ]
 }
-</script>

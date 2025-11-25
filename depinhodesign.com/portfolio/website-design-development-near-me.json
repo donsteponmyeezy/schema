@@ -1,0 +1,257 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "alternateName": "DePinho Graphic Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/hero-home-kid-depinhodesign-1024x963.jpg"
+      },
+      "description": "Expert web design agency specializing in organized, creative, mobile-ready, and fast-loading websites.",
+      "telephone": "+1-845-621-8546",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "AdministrativeArea", "name": "Southern Connecticut" },
+        { "@type": "City", "name": "Mahopac" }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ],
+      "workExample": [
+        {
+          "@type": "WebSite",
+          "name": "Hudson House River Inn",
+          "url": "https://hudsonhouseinn.com",
+          "description": "Restaurant Business: Web design, food photography, SEO, and hosting.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Cookes Crating",
+          "url": "https://cookescrating.com",
+          "description": "Fine Art Logistics: Website design, logo, and on-page SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Tvardi Therapeutics",
+          "url": "https://tvarditherapeutics.com",
+          "description": "Health Industry: Web design, logo design, and marketing.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Supreme Seams Automotive",
+          "url": "https://supremeseamsautomotive.com",
+          "description": "Automotive Industry: Custom web design, retouching, and SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Victa6 Apparel",
+          "url": "https://victa6.com/home",
+          "description": "Clothing Industry: Custom WooCommerce website and product development.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Emi's Garden",
+          "url": "https://emisgarden.com",
+          "description": "Food Industry: E-Commerce website with WordPress and Shopify integration.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "AD Capital Finance",
+          "url": "https://adcapitalfinance.com",
+          "description": "Financial Industry: Website design, copywriting, and digital marketing.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Apricity Health",
+          "url": "https://apricity-health.com/",
+          "description": "Healthcare: Web design, logo design, and branding.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "UPIC Cancer",
+          "url": "https://upic-cancer.org/",
+          "description": "Academic Institution: Website design, translation, and SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Walter's Cake Art",
+          "url": "https://walterscakeart.com",
+          "description": "Small Business: HTML website, photography, and SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Putnam Handyman Services",
+          "url": "https://putnamhandymanservices.com/",
+          "description": "Construction Industry: Website design and SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Psychoteria",
+          "url": "https://psychoteria.com",
+          "description": "Music Industry: Website design, logo design, and SoundCloud integration.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Allcare Orthotic and Prosthetic Services",
+          "url": "https://allcareoandp.com",
+          "description": "Healthcare / Prosthetics: Web design and SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Peter Tenzer Photography",
+          "description": "Website Portfolio: Web design and logo design.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "A&D Service Group",
+          "url": "https://adservicegroup.com",
+          "description": "Landscape Contractor: Website design and photography.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Mars Properties",
+          "url": "https://marspropertiesllc.com",
+          "description": "Property Management: Website design and marketing.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Talis Jewels",
+          "url": "https://talisjewels.com",
+          "description": "Small Business: Website design and SEO.",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/website-design-development-near-me/#webpage",
+      "url": "https://depinhodesign.com/website-design-development-near-me/",
+      "name": "Web Design Portfolio | Mahopac NY | Westchester NY",
+      "description": "Expert web design portfolio featuring restaurant, healthcare, e-commerce, and corporate websites.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "about": {
+        "@id": "https://depinhodesign.com/website-design-development-near-me/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/website-design-development-near-me/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/website-design-development-near-me/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://depinhodesign.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://depinhodesign.com/services-overview/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web Design Portfolio"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://depinhodesign.com/website-design-development-near-me/#service",
+      "name": "Custom Web Design & Development",
+      "serviceType": "Web Design",
+      "provider": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "description": "Comprehensive web design services including custom coding, CMS integration (WordPress/Shopify), SEO optimization, and photography integration for diverse industries.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Industry-Specific Web Design",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Restaurant & Hospitality Web Design",
+              "description": "Custom sites with food photography, menu integration, and reservation systems."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Healthcare & Academic Web Design",
+              "description": "Professional, trustworthy sites for therapeutics, orthotics, and academic institutions."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "E-Commerce Development",
+              "description": "WooCommerce and Shopify integrations for retail and apparel brands."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Corporate & Service Industry Web Design",
+              "description": "Lead-generating websites for automotive, construction, financial, and property management sectors."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
