@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["ProfessionalService", "Organization"],
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Graphic Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2021/07/depinho-design-website-bookmark.jpg"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ],
+      "priceRange": "$$",
+      "telephone": "+1-845-621-8546"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/#webpage",
+      "url": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/",
+      "name": "Schema Markup | Westchester NY",
+      "description": "Schema markup, or structured data, is code you add to your website that tells search engines and AI models exactly what your content means.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/my-journal/",
+            "name": "DePinho Design Blogs"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/",
+            "name": "Schema Markup: The Hidden Power Behind SEO and AI Search"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/#article",
+      "headline": "Schema Markup: The Hidden Power Behind SEO and AI Search",
+      "description": "Schema markup, or structured data, is code you add to your website that tells search engines and AI models exactly what your content means.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2025/04/schema.webp",
+        "width": 684,
+        "height": 474
+      },
+      "datePublished": "2025-10-02T12:51:42+00:00",
+      "dateModified": "2025-10-02T12:51:42+00:00",
+      "author": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/#webpage"
+      },
+      "articleSection": "Website Tips"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is schema markup in simple terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schema markup is code you add to your website that tells search engines and AI models what your content means. It provides context, such as whether a page is about a product, a service, a review, or an event, making it easier for algorithms to display your information accurately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does schema help with SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schema enhances your visibility in search results by enabling rich features like FAQs, star ratings, product details, and event information. These features stand out in the search results and often lead to higher click-through rates and more qualified traffic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does schema have to do with AI search optimization (GEO)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI platforms such as ChatGPT, Perplexity, Claude, and Gemini rely on structured data to understand content. By implementing schema, you increase the chance that these systems will reference your business in AI-generated answers, which are rapidly becoming a primary way people get information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can schema guarantee my website will show up in AI search results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are no guarantees, but schema dramatically increases your chances. Without structured data, AI tools may not have enough context to surface your business at all. With schema, you are giving them the signals they need to recognize your authority and relevance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does schema replace other SEO strategies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schema is a powerful enhancement, not a replacement. You still need quality content, strong technical SEO, and a solid link profile. Schema works alongside these elements to maximize visibility in both traditional and AI-driven search."
+          }
+        }
+      ]
+    }
+  ]
+}

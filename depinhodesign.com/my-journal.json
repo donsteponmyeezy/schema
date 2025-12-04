@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["ProfessionalService", "WebSite"],
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Graphic Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg"
+      },
+      "image": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
+      "telephone": "+1-845-621-8546",
+      "description": "Award winning website and graphic design company specializing in small business online marketing for Westchester, Putnam, Hudson Valley, Danbury and the USA.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.3723,
+        "longitude": -73.7346
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Mahopac"
+        },
+        {
+          "@type": "City",
+          "name": "Danbury"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Westchester County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Putnam County"
+        },
+        {
+          "@type": "Place",
+          "name": "Hudson Valley"
+        }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://depinhodesign.com/my-journal/#webpage",
+      "url": "https://depinhodesign.com/my-journal/",
+      "name": "My Journal - Web Design & Graphic Design Insights",
+      "description": "Welcome to My Journal, where I share my insights on all things related to graphic design, photography, and digital marketing.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "publisher": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://depinhodesign.com/apples-to-oranges-choosing-the-right-professional-website-design-company/",
+            "name": "Apples to Oranges? Choosing the Right Website Design Company"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://depinhodesign.com/schema-the-hidden-power-behind-seo-and-ai-search/",
+            "name": "Schema Markup: The Hidden Power Behind SEO and AI Search"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://depinhodesign.com/why-website-accessibility-matters/",
+            "name": "Why Website Accessibility Matters"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://depinhodesign.com/the-benefits-of-vps-hosting-for-wordpress-with-page-builders-a-depinho-design-guide/",
+            "name": "VPS Hosting vs. Shared Hosting: The Best Choice for Your WordPress Site"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://depinhodesign.com/website-designer-for-small-business/",
+            "name": "Website Designer for Small Business"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://depinhodesign.com/the-advantages-of-starting-with-a-one-page-website/",
+            "name": "The Advantages of Starting with a One-Page Website"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "https://depinhodesign.com/victa6-website-case-study/",
+            "name": "Victa6 Website Case Study"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "https://depinhodesign.com/custom-website-or-template-website-which-one-is-right-for-your-company/",
+            "name": "Custom Website or Template Website: Which One is Right for Your Company"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "https://depinhodesign.com/why-is-website-maintenance-important/",
+            "name": "Why is Website Maintenance Important?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "https://depinhodesign.com/ad-project-case-study/",
+            "name": "A&D Project Case Study"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "url": "https://depinhodesign.com/allcare-website-case-study/",
+            "name": "Allcare Website Case Study"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "url": "https://depinhodesign.com/best-practices-for-a-nonprofit-donation-website/",
+            "name": "What Are the Best Practices for a Nonprofit Donation Website?"
+          }
+        ]
+      }
+    }
+  ]
+}

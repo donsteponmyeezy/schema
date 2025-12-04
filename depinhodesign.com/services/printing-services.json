@@ -1,0 +1,154 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "alternateName": "DePinho Graphic Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg"
+      },
+      "description": "Award-winning design agency with 35 years of expertise, offering top-tier graphic design and printing solutions.",
+      "telephone": "+1-845-621-8546",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Brewster" },
+        { "@type": "City", "name": "Yorktown Heights" }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/printing-services/#webpage",
+      "url": "https://depinhodesign.com/printing-services/",
+      "name": "Printing Services - Web Design | Graphic Design | Printing",
+      "description": "Welcome to DePinho Graphic Design, where creativity meets precision in crafting exceptional print materials including digital, offset, and large format printing.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "about": {
+        "@id": "https://depinhodesign.com/printing-services/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/printing-services/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/printing-services/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/services/",
+            "name": "Services"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://depinhodesign.com/printing-services/",
+            "name": "Printing Services"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://depinhodesign.com/printing-services/#service",
+      "name": "Printing Services",
+      "serviceType": "Commercial Printing",
+      "provider": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "description": "Exceptional printing solutions ranging from business cards and brochures to large format banners, backed by partnerships with leading printers in the USA.",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Southern Connecticut" },
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Fairfield" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Printing Capabilities",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Printing",
+              "description": "Fast, efficient printing perfect for small to medium print runs."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Offset Printing",
+              "description": "Ideal for large quantities, offering superior quality and cost-effectiveness."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Large Format Printing",
+              "description": "Stunning prints for banners, posters, and other large-scale applications."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom Printing",
+              "description": "Tailored solutions for unique projects, ensuring your specific vision comes to life."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

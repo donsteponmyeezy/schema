@@ -1,0 +1,168 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_cibopelle_logo-1.jpg"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-845-621-8546",
+      "areaServed": [
+        "Westchester County",
+        "Putnam County",
+        "Hudson Valley",
+        "Southern Connecticut"
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/branding/#webpage",
+      "url": "https://depinhodesign.com/branding/",
+      "name": "Graphic Design Portfolio | Westchester & Putnam NY",
+      "description": "A showcase of comprehensive branding projects including logos, websites, packaging, and print design for clients in Westchester and Putnam County.",
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/branding/#portfolio"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/branding/#breadcrumb"
+      },
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://depinhodesign.com/branding/#portfolio",
+      "name": "DePinho Design Graphic Design Portfolio",
+      "headline": "Graphic Design of Westchester and Putnam NY",
+      "description": "A collection of multi-disciplinary design projects featuring brand identity, print collateral, vehicle graphics, and digital assets.",
+      "genre": "Brand Identity",
+      "author": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "workExample": [
+        {
+          "@type": "VisualArtwork",
+          "name": "Cibo Pelle Brand Identity",
+          "description": "Full brand system including logo, packaging, 15 flavor icons, and labels.",
+          "artform": "Brand Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_cibopelle_logo-1.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Cibo Pelle Product Packaging",
+          "artform": "Package Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_cibopelle_jar-1.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Cibo Pelle E-Commerce Website",
+          "description": "Custom e-commerce website design integrated with the brand visual identity.",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_cibopelle_website-1.jpg",
+          "author": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Cibo Pelle Custom Printed Bags",
+          "artform": "Print Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_cibopelle_bag-1.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Doran Home Builders Brand Identity",
+          "description": "Complete brand identity reflecting craftsmanship and reliability.",
+          "artform": "Brand Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_doran_logo.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Doran Home Builders Brochure",
+          "artform": "Print Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_doran_brochure.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Doran Home Builders Vehicle Graphics",
+          "artform": "Vehicle Wrap Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_doran_trucks.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Neave Landscaping Brand Identity",
+          "description": "Distinctive logo design and brand assets for a landscaping service.",
+          "artform": "Brand Identity",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_neave_logo.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Neave Landscaping Seed Pack Promo",
+          "description": "Custom seed packs designed to serve as memorable business cards.",
+          "artform": "Promotional Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_neave_sign.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "Neave Landscaping Truck Decals",
+          "artform": "Vehicle Graphics",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_neave_truck.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        },
+        {
+          "@type": "VisualArtwork",
+          "name": "12 Page Printed Booklet",
+          "artform": "Editorial Design",
+          "image": "https://depinhodesign.com/wp-content/uploads/2019/10/branding_silder_booklet.jpg",
+          "creator": { "@id": "https://depinhodesign.com/#organization" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/branding/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/branding/",
+            "name": "Graphic Design Portfolio"
+          }
+        }
+      ]
+    }
+  ]
+}

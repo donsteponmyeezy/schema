@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://depinhodesign.com/#website",
+      "url": "https://depinhodesign.com",
+      "name": "DePinho Design",
+      "description": "Custom Website Design & Hosting. Serving Putnam, Westchester, and Connecticut.",
+      "publisher": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://depinhodesign.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
+      "image": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
+      "telephone": "+1-845-621-8546",
+      "description": "A boutique design studio specializing in web design, development, digital marketing, hosting, content writing, and asset creation.",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.3723",
+          "longitude": "-73.7335"
+        },
+        "geoRadius": "80467.2"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "21"
+      }
+    },
+    {
+      "@type": "AggregateOffer",
+      "@id": "https://depinhodesign.com/custom-website-design-offer/#aggregate-offer",
+      "offerCount": "3",
+      "lowPrice": "1850",
+      "highPrice": "4150",
+      "priceCurrency": "USD",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Spark - 5-Page Website & Hosting Package",
+          "description": "A 5-page custom website design and hosting package including social media integration, 10 stock images, CMS, secure managed VPS hosting, and more.",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "1850",
+            "priceCurrency": "USD",
+            "description": "Starting At"
+          },
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom 5-Page Website Design and Hosting"
+          },
+          "validThrough": "2025-12-01"
+        },
+        {
+          "@type": "Offer",
+          "name": "Launch - 10-Page Website + Hosting Package",
+          "description": "A 10-page custom website design and hosting package including on-page SEO, digital business cards, 15 stock images, and more.",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "3250",
+            "priceCurrency": "USD",
+            "description": "Starting At"
+          },
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom 10-Page Website Design and Hosting with SEO"
+          },
+          "validThrough": "2025-12-01"
+        },
+        {
+          "@type": "Offer",
+          "name": "Soar - 15-Page Website + Hosting Package",
+          "description": "A comprehensive 15-page custom website design and hosting package including on-page SEO, digital business cards, blogging system, 20 stock images, and more.",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "4150",
+            "priceCurrency": "USD",
+            "description": "Starting At"
+          },
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom 15-Page Website Design and Hosting with SEO & Blogging System"
+          },
+          "validThrough": "2025-12-01"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/custom-website-design-offer/#breadcrumb",
+      "name": "Breadcrumb List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/custom-website-design-offer/",
+            "name": "Custom Website Design Offer"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/custom-website-design-offer/#webpage",
+      "url": "https://depinhodesign.com/custom-website-design-offer/",
+      "name": "Custom Website Design | Putnam NY | Westchester NY",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg"
+      },
+      "dateModified": "2025-09-29T04:20:36+00:00",
+      "description": "Custom Website Design & Hosting starting at $1,800, 3 months FREE Hosting. Perfect for jump-starting your business. Serving Putnam, Westchester, and Connecticut.",
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/custom-website-design-offer/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}

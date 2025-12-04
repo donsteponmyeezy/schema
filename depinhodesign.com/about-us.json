@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2021/07/depinho-design-website-bookmark.jpg"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-845-621-8546",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Brewster" },
+        { "@type": "City", "name": "Yorktown Heights" },
+        { "@type": "Country", "name": "US" }
+      ],
+      "priceRange": "$$",
+      "founder": {
+        "@id": "https://depinhodesign.com/#joseph"
+      },
+      "employee": [
+        {
+          "@id": "https://depinhodesign.com/#joseph"
+        },
+        {
+          "@id": "https://depinhodesign.com/#suzanne"
+        },
+        {
+          "@id": "https://depinhodesign.com/#murphy"
+        }
+      ]
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://depinhodesign.com/about-us/#webpage",
+      "url": "https://depinhodesign.com/about-us/",
+      "name": "About DePinho Graphic Design | Web & Logo Design Team",
+      "description": "Meet the team behind DePinho Design. We are a full-service creative agency in Mahopac, NY specializing in web design, branding, SEO, and photography.",
+      "mainEntity": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/about-us/#breadcrumb"
+      },
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://depinhodesign.com/#joseph",
+      "name": "Joseph DePinho",
+      "jobTitle": "Owner & Creative Director",
+      "image": "https://depinhodesign.com/wp-content/uploads/2020/08/joseph-400-2.png",
+      "description": "Creative Director, Graphic Designer, Front-end Developer, and Photographer specializing in visual branding and user-friendly websites.",
+      "worksFor": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "url": "https://depinhodesign.com/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://depinhodesign.com/#suzanne",
+      "name": "Suzanne",
+      "jobTitle": "Copywriter & Editor",
+      "image": "https://depinhodesign.com/wp-content/uploads/2024/12/suzanne-2.webp",
+      "description": "Specialist in Digital Content Development, Marketing, and Editing.",
+      "worksFor": {
+        "@id": "https://depinhodesign.com/#organization"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://depinhodesign.com/#murphy",
+      "name": "Murphy",
+      "jobTitle": "Digital Marketing & SEO Specialist",
+      "image": "https://depinhodesign.com/wp-content/uploads/2023/10/murphy-photo.webp",
+      "description": "Expert in Digital Marketing, Search Engine Optimization (SEO), and Front-end Development.",
+      "worksFor": {
+        "@id": "https://depinhodesign.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/about-us/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/about-us/",
+            "name": "About Us"
+          }
+        }
+      ]
+    }
+  ]
+}

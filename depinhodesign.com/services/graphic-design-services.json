@@ -1,0 +1,154 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "alternateName": "DePinho Graphic Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2019/09/depinho-design-Master-logo-icon-white-2019.svg",
+        "caption": "DePinho Graphic Design"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg"
+      },
+      "description": "Award-winning website and graphic design company specializing in small business online marketing for Westchester, Putnam, and the Hudson Valley.",
+      "telephone": "+1-845-621-8546",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "City", "name": "Danbury" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Brewster" },
+        { "@type": "City", "name": "Yorktown Heights" }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/graphic-design-services/#webpage",
+      "url": "https://depinhodesign.com/graphic-design-services/",
+      "name": "Graphic Design Services Westchester NY & Putnam NY | DePinho Design",
+      "description": "Top rated Graphics Design in Westchester NY & Putnam NY. We strive to deliver top-notch creative graphic design services tailored to every client.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "about": {
+        "@id": "https://depinhodesign.com/graphic-design-services/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/graphic-design-services/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/graphic-design-services/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/services/",
+            "name": "Services"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://depinhodesign.com/graphic-design-services/",
+            "name": "Graphic Design Services"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://depinhodesign.com/graphic-design-services/#service",
+      "name": "Graphic Design Services",
+      "serviceType": "Graphic Design",
+      "provider": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "description": "Creative graphic design services including logo creation, book covers, and marketing print collateral tailored for brand identity.",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Design Capabilities",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Logo Design",
+              "description": "Meticulously designed logos that are visually appealing and represent your brand identity.",
+              "url": "https://depinhodesign.com/logo-design-mahopac/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Cover Design",
+              "description": "Professional book cover designs that capture the essence of the manuscript and attract readers.",
+              "url": "https://depinhodesign.com/book-cover-design-mahopac-new-york/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Branding & Print Design",
+              "description": "Design of brochures, flyers, business cards, and banners that ensure brand consistency across all platforms.",
+              "url": "https://depinhodesign.com/branding/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website Design",
+              "description": "Award-winning website design specializing in small business online marketing.",
+              "url": "https://depinhodesign.com/website-design-development-near-me/"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

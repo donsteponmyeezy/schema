@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "alternateName": "DePinho Graphic Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
+        "width": 1024,
+        "height": 1022,
+        "caption": "DePinho Design Logo"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2023/10/seo_report_depinhodesign.png"
+      },
+      "description": "Top-rated digital marketing agency in Westchester and Putnam County, specializing in SEO, PPC, and web design.",
+      "telephone": "+1-845-621-8546",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Danbury" }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/digital-marketing-services/#webpage",
+      "url": "https://depinhodesign.com/digital-marketing-services/",
+      "name": "Top Rated Westchester Digital Marketing | SEO PPC & More",
+      "description": "Our top rated Putnam County & Westchester digital marketing services offer many solutions for your online presence including SEO, PPC, and Analytics.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "about": {
+        "@id": "https://depinhodesign.com/digital-marketing-services/#service"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://depinhodesign.com/digital-marketing-services/#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/digital-marketing-services/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://depinhodesign.com/digital-marketing-services/#primaryimage",
+      "url": "https://depinhodesign.com/wp-content/uploads/2023/10/seo_report_depinhodesign.png",
+      "width": 1343,
+      "height": 621,
+      "caption": "Westchester digital marketing SEO report"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/digital-marketing-services/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://depinhodesign.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services Overview",
+          "item": "https://depinhodesign.com/services-overview/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Digital Marketing Services"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://depinhodesign.com/digital-marketing-services/#service",
+      "name": "Digital Marketing Services",
+      "serviceType": "Digital Marketing",
+      "provider": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "description": "Comprehensive digital marketing solutions including SEO, keyword research, PPC management, and analytics reporting to enhance online visibility.",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Westchester County" },
+        { "@type": "AdministrativeArea", "name": "Putnam County" },
+        { "@type": "AdministrativeArea", "name": "Hudson Valley" },
+        { "@type": "City", "name": "Mahopac" },
+        { "@type": "City", "name": "Danbury" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Marketing Capabilities",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO & Keyword Research",
+              "description": "Fine-tuning digital footprints through optimization techniques, Google Business Profile optimization, and strategic keyword research to improve search engine rankings."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "PPC Management",
+              "description": "Specialized Pay Per Click (PPC) services tailored for Google Ads and Bing Ads to drive targeted traffic and maximize ROI."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Content Marketing",
+              "description": "Creating and distributing valuable, relevant, and consistent content to attract and engage a clearly defined audience, ultimately driving profitable customer action."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "GEO Schema Implementation",
+              "description": "Leveraging GEO schema markup to enhance local SEO efforts and improve visibility in both AI search and local search results."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Analytics & Reporting",
+              "description": "In-depth monthly reporting using Google Analytics and Google Tag Manager to track demographics, user flow, and campaign performance."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

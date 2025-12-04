@@ -1,0 +1,178 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Graphic Design",
+      "alternateName": "DePinho Graphic Design",
+      "legalName": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
+        "width": 1024,
+        "height": 1022,
+        "caption": "DePinho Design Logo"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg"
+      },
+      "description": "Full-service graphic design, website design, and marketing studio located in Mahopac, NY.",
+      "telephone": "+1-845-621-8546",
+      "email": "info@depinhodesign.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2 Rodcris Drive",
+        "addressLocality": "Mahopac",
+        "addressRegion": "NY",
+        "postalCode": "10541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.36676",
+        "longitude": "-73.78263"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Mahopac"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Westchester County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Putnam County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Hudson Valley"
+        }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/depinhodesign/",
+        "https://www.linkedin.com/company/depinho-design",
+        "https://www.instagram.com/depinho_design/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://depinhodesign.com/services-overview/#webpage",
+      "url": "https://depinhodesign.com/services-overview/",
+      "name": "Services Overview | Web & Graphic Design | DePinho Design",
+      "description": "We are a full-service graphic design, website design, and marketing studio. We offer branding, SEO, photography, and printing services.",
+      "isPartOf": {
+        "@id": "https://depinhodesign.com/#website"
+      },
+      "about": {
+        "@id": "https://depinhodesign.com/#organization"
+      },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://depinhodesign.com/services-overview/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://depinhodesign.com/services-overview/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://depinhodesign.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://depinhodesign.com/services-overview/",
+            "name": "Services Overview"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://depinhodesign.com/services-overview/#service-list",
+      "mainEntityOfPage": {
+        "@id": "https://depinhodesign.com/services-overview/#webpage"
+      },
+      "name": "Our Creative Services",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Web Design Services",
+            "url": "https://depinhodesign.com/web-design-services/",
+            "description": "Custom website design, E-Commerce solutions, and responsive development.",
+            "provider": {
+              "@id": "https://depinhodesign.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Digital Marketing Services",
+            "url": "https://depinhodesign.com/digital-marketing-services/",
+            "description": "SEO solutions, keyword research, Google Analytics, and PPC advertising.",
+            "provider": {
+              "@id": "https://depinhodesign.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Graphic Design Services",
+            "url": "https://depinhodesign.com/graphic-design-services/",
+            "description": "Logo design, branding, book cover design, and marketing collateral.",
+            "provider": {
+              "@id": "https://depinhodesign.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Service",
+            "name": "Printing Services",
+            "url": "https://depinhodesign.com/printing-services/",
+            "description": "High-quality printing and signage solutions.",
+            "provider": {
+              "@id": "https://depinhodesign.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Service",
+            "name": "Photography & Media",
+            "url": "https://depinhodesign.com/photography/",
+            "description": "Portrait, product, and food photography, photo retouching, and video production.",
+            "provider": {
+              "@id": "https://depinhodesign.com/#organization"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
