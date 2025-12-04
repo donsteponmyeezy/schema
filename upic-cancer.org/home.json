@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["MedicalOrganization", "NGO"],
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "United to End Cancer (UPIC)",
+      "alternateName": ["Portugal-USA Cancer Initiative", "UPIC-Cancer"],
+      "url": "https://upic-cancer.org/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg",
+        "width": 324,
+        "height": 144,
+        "caption": "UPIC Logo"
+      },
+      "foundingDate": "2023",
+      "description": "The Portugal-USA Cancer Initiative (UPIC) is a trans-Atlantic collaboration launched in 2023 to advance cancer research, training, and patient care. It unites premier academic institutions in Portugal and the USA to accelerate scientific discovery through Visiting Professor Programs, Summer Bootcamps, and Research Sabbaticals.",
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "knowsAbout": [
+        "Oncology",
+        "Cancer Research",
+        "Biomedical Training",
+        "Trans-Atlantic Scientific Collaboration"
+      ],
+      "funder": [
+        {
+          "@type": "Organization",
+          "name": "FLAD (Luso-American Development Foundation)",
+          "url": "https://www.flad.pt/en/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Adopt a Scientist"
+        },
+        {
+          "@type": "Organization",
+          "name": "Amigos de Portugal"
+        }
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "ASPIC (Portuguese Association for Cancer Research)",
+        "url": "https://www.aspic.pt/en"
+      },
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Visiting Professor Program",
+          "description": "Leading scientists exchange knowledge through intensive research visits.",
+          "url": "https://upic-cancer.org/visiting-professor-program/"
+        },
+        {
+          "@type": "Offer",
+          "name": "Summer Cancer Bootcamp",
+          "description": "Training tomorrow's leaders through intensive training with world-class faculty.",
+          "url": "https://upic-cancer.org/summer-cancer-bootcamp/"
+        },
+        {
+          "@type": "Offer",
+          "name": "Research & Trainee Sabbaticals",
+          "description": "Sabbatical opportunities at top U.S. laboratories to advance and transform careers.",
+          "url": "https://upic-cancer.org/research-trainee-sabbaticals/"
+        }
+      ],
+      "sameAs": ["https://upic-cancer.org/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://upic-cancer.org/#website",
+      "url": "https://upic-cancer.org/",
+      "name": "United to End Cancer",
+      "description": "Portugal-USA Cancer Initiative",
+      "publisher": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}

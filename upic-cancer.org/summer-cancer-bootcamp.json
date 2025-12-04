@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "PT-USA Cancer Initiative",
+      "alternateName": ["UPIC-Cancer", "UPIC"],
+      "url": "https://upic-cancer.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#webpage",
+      "url": "https://upic-cancer.org/summer-cancer-bootcamp/",
+      "name": "Summer Cancer Bootcamp - PT-USA Cancer Initiative",
+      "description": "An immersive 10-day cancer research training program for early-career scientists at i3S, Porto.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#primaryimage",
+      "url": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-group-photo-2.webp",
+      "width": 500,
+      "height": 375,
+      "caption": "UPIC Summer Cancer Bootcamp Participants and Faculty"
+    },
+    {
+      "@type": "EducationEvent",
+      "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#event",
+      "name": "Summer Cancer Bootcamp 2025",
+      "description": "The Summer Cancer Bootcamp is an immersive 10-day program designed to provide 30 early-career scientists and clinicians with intensive training in cancer research methodologies. The curriculum covers the history of cancer, oncogenes, tumor microenvironment, therapy resistance, epigenetics, and cancer metabolism. It includes hands-on workshops, grant writing sessions, and career development mentoring.",
+      "startDate": "2025-06-30",
+      "endDate": "2025-07-07",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "i3S - Instituto de Investigação e Inovação em Saúde",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Porto",
+          "addressCountry": "PT"
+        }
+      },
+      "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-group-photo-2.webp",
+      "organizer": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": "20+ World-Class Faculty from US, Portugal, and EU"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "PhD students, physician-scientists, and early-stage postdoctoral fellows working in cancer biology"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.i3s.up.pt/event.php?v=358",
+        "availability": "https://schema.org/InStock",
+        "category": "Application",
+        "description": "Full and partial scholarships are available for qualified applicants. Admissions are evaluated based on academic excellence and research experience."
+      },
+      "mainEntityOfPage": {
+        "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#webpage"
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#course",
+      "name": "Summer Cancer Bootcamp",
+      "description": "Intensive training in cancer research methodologies, covering foundational and advanced topics such as cancer cell plasticity, epigenetics, and metabolism.",
+      "provider": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "hasCourseInstance": {
+        "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#event"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://upic-cancer.org/summer-cancer-bootcamp/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://upic-cancer.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Summer Cancer Bootcamp",
+          "item": "https://upic-cancer.org/summer-cancer-bootcamp/"
+        }
+      ]
+    }
+  ]
+}
