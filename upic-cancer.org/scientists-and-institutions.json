@@ -1,0 +1,185 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/scientists-and-institutions/",
+      "url": "https://upic-cancer.org/scientists-and-institutions/",
+      "name": "Scientists & Institutions - PT-USA Cancer Initiative",
+      "description": "Academic institutions in Portugal and the USA collaborate to advance cancer research, training, and patient care.",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/03/flag-us-round.svg"
+      },
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "PT-USA Cancer Initiative",
+      "alternateName": "UPIC-Cancer",
+      "url": "https://upic-cancer.org/",
+      "logo": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg",
+      "description": "A cancer research exchange program connecting academic institutions in Portugal and the USA.",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lisbon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Lisboa"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "New York",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "NY",
+            "addressLocality": "New York"
+          }
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "name": "PT-USA Cancer Research Exchange Program",
+      "founder": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "location": [
+        {
+          "@type": "Place",
+          "name": "Instituto Português de Oncologia de Lisboa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lisbon",
+            "addressCountry": "PT"
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Memorial Sloan Kettering Cancer Center",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "addressCountry": "US"
+          }
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Ronald DePinho",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "MD Anderson Cancer Center"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Luis Parada",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Memorial Sloan Kettering Cancer Center",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "New York",
+              "addressRegion": "NY",
+              "addressCountry": "US"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Kwok-Kin Wong",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Perlmutter Cancer Center",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "New York",
+              "addressRegion": "NY",
+              "addressCountry": "US"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Tannishtha Reya",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Herbert Irving Comprehensive Cancer Center, Columbia University",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "New York",
+              "addressRegion": "NY",
+              "addressCountry": "US"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Ana Félix",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Instituto Português de Oncologia de Lisboa",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lisbon",
+              "addressCountry": "PT"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Henrique Veiga-Fernandes",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Champalimaud Foundation",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lisbon",
+              "addressCountry": "PT"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Pedro Castelo-Branco",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Algarve Biomedical Center Research Institute",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "PT"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "José Carlos Machado",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Institute for Research and Innovation in Health",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Porto",
+              "addressCountry": "PT"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

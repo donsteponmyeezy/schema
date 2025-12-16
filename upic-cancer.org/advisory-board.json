@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/advisory-board/",
+      "url": "https://upic-cancer.org/advisory-board/",
+      "name": "Advisory Board - PT-USA Cancer Initiative",
+      "description": "Information regarding the External Independent Board, Executive Committee, and Working Groups of the UPIC Cancer Initiative.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "PT-USA Cancer Initiative",
+      "alternateName": "UPIC-Cancer",
+      "url": "https://upic-cancer.org/",
+      "logo": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lisbon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Lisboa"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "New York",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "NY",
+            "addressLocality": "New York"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Texas",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "TX"
+          }
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Filipe de Botton",
+          "jobTitle": "Chairperson, External Independent Board",
+          "affiliation": {
+            "@id": "https://upic-cancer.org/#organization"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Jose Ivo",
+          "jobTitle": "Board Member",
+          "description": "Honorary Consulate of Portugal in Texas",
+          "workLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "TX",
+              "addressCountry": "US"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Perry Nisen",
+          "jobTitle": "Board Member",
+          "honorificSuffix": "MD PhD",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "UT Southwestern",
+            "location": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Marisol Soengas",
+          "jobTitle": "Board Member",
+          "honorificSuffix": "PhD",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "CNIO",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "ES"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Ronald DePinho",
+          "jobTitle": "Chairperson, Executive Committee",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "MD Anderson Cancer Center",
+            "location": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Monica Bettencourt-Dias",
+          "jobTitle": "Co-chair, Executive Committee",
+          "nationality": "Portuguese"
+        },
+        {
+          "@type": "Person",
+          "name": "Joana Paredes",
+          "jobTitle": "Co-chair, Executive Committee",
+          "nationality": "Portuguese"
+        }
+      ],
+      "department": [
+        {
+          "@type": "Organization",
+          "name": "Visiting Professor Working Group",
+          "description": "Coordinates visiting professor exchanges between Portugal and the USA."
+        },
+        {
+          "@type": "Organization",
+          "name": "Summer Course Working Group",
+          "description": "Oversees the Summer Cancer Bootcamp initiative."
+        },
+        {
+          "@type": "Organization",
+          "name": "Research and Trainee Sabbaticals Working Group",
+          "description": "Manages sabbaticals for researchers and trainees."
+        }
+      ]
+    }
+  ]
+}

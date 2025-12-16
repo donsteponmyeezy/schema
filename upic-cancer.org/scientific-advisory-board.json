@@ -1,0 +1,235 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/scientific-advisory-board/",
+      "url": "https://upic-cancer.org/scientific-advisory-board/",
+      "name": "Scientific Advisory Board - PT-USA Cancer Initiative",
+      "description": "Meet the Scientific Advisory Board of the PT-USA Cancer Initiative, comprised of scientific leaders from USA and Portuguese institutions.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "PT-USA Cancer Initiative",
+      "alternateName": "UPIC-Cancer",
+      "url": "https://upic-cancer.org/",
+      "logo": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lisbon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Lisboa"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "New York",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "NY",
+            "addressLocality": "New York"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Porto",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Porto"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Texas",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "TX"
+          }
+        }
+      ],
+      "department": {
+        "@type": "Organization",
+        "name": "Scientific Advisory Board",
+        "description": "Reviews and prioritizes collaborative projects for funding consideration.",
+        "member": [
+          {
+            "@type": "Person",
+            "name": "Monica Bettencourt-Dias",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-Monica-Bettencourt-Dias-SAB.webp",
+            "url": "https://upic-cancer.org/monica-bettencourt-dias-phd/",
+            "nationality": "Portuguese",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lisbon",
+                "addressCountry": "PT"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Ronald DePinho",
+            "honorificSuffix": "MD, PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-ron-depinho-Scientific-Advisory-Board.webp",
+            "url": "https://upic-cancer.org/ronald-depinho-md-phd/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Roger Greenberg",
+            "honorificSuffix": "MD, PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-Roger-Greenberg-Scientific-Advisory-Board.webp",
+            "url": "https://upic-cancer.org/elementor-page-1603/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Philadelphia",
+                "addressRegion": "PA",
+                "addressCountry": "US"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Joana Paredes",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-JoanaParedesPhD-Scientific-Advisory-Board.webp",
+            "url": "https://upic-cancer.org/joana-paredes-phd/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Porto",
+                "addressCountry": "PT"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Katerina Politi",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/katerinapolitiphdupic-cancer-scientific-advisory-board.webp",
+            "url": "https://upic-cancer.org/elementor-1405/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "New Haven",
+                "addressRegion": "CT",
+                "addressCountry": "US"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Kevin Haigis",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-KevinHaigis-Scientific-Advisory-Board.webp",
+            "url": "https://upic-cancer.org/kevin-haigis-phd/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Boston",
+                "addressRegion": "MA",
+                "addressCountry": "US"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Julien Sage",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/juliensagephdupic-cancer-scientific-advisory-board.webp",
+            "url": "https://upic-cancer.org/julien-sage-phd/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stanford",
+                "addressRegion": "CA",
+                "addressCountry": "US"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Bruno Silva-Santos",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/brunosilvasantosupic-cancer-scientific-advisory-board.webp",
+            "url": "https://upic-cancer.org/bruno-silva-santos/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lisbon",
+                "addressCountry": "PT"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Henrique Veiga-Fernandes",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/henriquevegafernandesphdupic-cancer-scientific-advisory-board.webp",
+            "url": "https://upic-cancer.org/henrique-veiga-fernandes-phd/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lisbon",
+                "addressCountry": "PT"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Kwok-Kin Wong",
+            "honorificSuffix": "MD, PhD",
+            "jobTitle": "Scientific Advisor",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/kwokkimwongmdphdupic-cancer-scientific-advisory-board.webp",
+            "url": "https://upic-cancer.org/kwok-kin-wong-md-phd/",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "New York",
+                "addressRegion": "NY",
+                "addressCountry": "US"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
