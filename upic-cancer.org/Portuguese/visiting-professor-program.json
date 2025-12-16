@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/programa-de-professores-visitantes/#webpage",
+      "url": "https://upic-cancer.org/programa-de-professores-visitantes/",
+      "name": "Programa de Professores Visitantes - Iniciativa Cancro PT-USA",
+      "description": "O Programa de Professores Visitantes (VPP) promove a colaboração entre líderes de grupos de investigação em cancro de topo de Portugal e dos EUA.",
+      "inLanguage": "pt-PT",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://upic-cancer.org/programa-de-professores-visitantes/#primaryimage"
+      },
+      "about": {
+        "@id": "https://upic-cancer.org/programa-de-professores-visitantes/#program"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "hhttps://upic-cancer.org/programa-de-professores-visitantes/#primaryimage",
+      "url": "https://upic-cancer.org/wp-content/uploads/2025/03/success-story-DrCarlaOliveira.webp",
+      "width": 543,
+      "height": 220,
+      "caption": "Dra. Carla Oliveira - História de Sucesso do Programa de Professores Visitantes"
+    },
+    {
+      "@type": "EducationalOccupationalProgram",
+      "@id": "https://upic-cancer.org/programa-de-professores-visitantes/#program",
+      "name": "Programa de Professores Visitantes (VPP)",
+      "description": "Um programa de intercâmbio estruturado para líderes de grupos de investigação em cancro de Portugal e dos EUA. O programa inclui visitas de 7 a 10 dias a instituições de investigação de topo, seminários virtuais e workshops.",
+      "provider": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "educationalProgramMode": "Híbrido",
+      "timeToComplete": "P10D",
+      "applicationDeadline": "Rolling",
+      "occupationalCategory": "Investigação do Cancro",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/05/Visiting-Professorship-Program-Form.pdf",
+        "availability": "https://schema.org/InStock",
+        "category": "Candidatura",
+        "description": "Formulário de Candidatura em PDF. Os candidatos são avaliados com base na excelência da investigação, potencial de colaboração ou nomeação institucional."
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Investigadores de cancro internacionalmente reconhecidos, estudantes de doutoramento e cientistas-médicos.",
+        "geographicArea": [
+          {
+            "@type": "Country",
+            "name": "Portugal"
+          },
+          {
+            "@type": "Country",
+            "name": "Estados Unidos"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "Iniciativa Cancro PT-USA",
+      "alternateName": ["UPIC-Cancer", "UPIC"],
+      "url": "https://upic-cancer.org/pt/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg"
+      },
+      "funder": {
+        "@type": "Organization",
+        "name": "FLAD (Fundação Luso-Americana para o Desenvolvimento)",
+        "url": "https://www.flad.pt/",
+        "location": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lisboa",
+                "addressCountry": "PT"
+            }
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lisboa",
+          "address": { "@type": "PostalAddress", "addressCountry": "PT", "addressLocality": "Lisboa" }
+        },
+        {
+          "@type": "City",
+          "name": "Porto",
+          "address": { "@type": "PostalAddress", "addressCountry": "PT", "addressLocality": "Porto" }
+        },
+        {
+          "@type": "City",
+          "name": "Nova Iorque",
+          "address": { "@type": "PostalAddress", "addressCountry": "US", "addressRegion": "NY", "addressLocality": "New York" }
+        },
+        {
+          "@type": "City",
+          "name": "Boston",
+          "address": { "@type": "PostalAddress", "addressCountry": "US", "addressRegion": "MA", "addressLocality": "Boston" }
+        },
+        {
+           "@type": "AdministrativeArea",
+           "name": "Texas",
+           "address": { "@type": "PostalAddress", "addressCountry": "US", "addressRegion": "TX" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://upic-cancer.org/programa-de-professores-visitantes/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://upic-cancer.org/pt/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Programa de Professores Visitantes",
+          "item": "https://upic-cancer.org/programa-de-professores-visitantes/"
+        }
+      ]
+    }
+  ]
+}

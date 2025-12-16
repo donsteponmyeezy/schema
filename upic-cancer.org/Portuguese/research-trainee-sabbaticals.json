@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "Iniciativa Cancro PT-USA",
+      "alternateName": ["UPIC-Cancer", "UPIC"],
+      "url": "https://upic-cancer.org/pt/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg"
+      },
+      "funder": {
+        "@type": "Organization",
+        "name": "FLAD (Fundação Luso-Americana para o Desenvolvimento)",
+        "url": "https://www.flad.pt/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#webpage",
+      "url": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/",
+      "name": "Sabáticas de Investigação em Cancro - Iniciativa Cancro PT-USA",
+      "description": "Sabáticas de investigação em cancro de 6 a 12 meses, totalmente financiadas, para estudantes de doutoramento, pós-doutorados e professores júnior em instituições de topo dos EUA.",
+      "inLanguage": "pt-PT",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#primaryimage"
+      },
+      "about": {
+        "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#program"
+      },
+      "mentions": {
+        "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#grant"
+      },
+      "mainEntity": {
+        "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#program"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#primaryimage",
+      "url": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-banner-flag.webp",
+      "width": 500,
+      "height": 375,
+      "caption": "Programa de Sabáticas de Investigação UPIC"
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#program",
+      "name": "Sabáticas de Investigação e Formação",
+      "description": "Um programa colaborativo que oferece 10 vagas anuais para investigadores portugueses realizarem 6 a 12 meses de investigação em biologia tumoral em instituições de topo nos EUA.",
+      "organizer": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "location": [
+        {
+          "@type": "Country",
+          "name": "Estados Unidos",
+          "description": "Local de acolhimento para investigação",
+          "containsPlace": [
+            { "@type": "City", "name": "New York", "address": { "@type": "PostalAddress", "addressRegion": "NY" } },
+            { "@type": "City", "name": "Boston", "address": { "@type": "PostalAddress", "addressRegion": "MA" } },
+            { "@type": "City", "name": "Houston", "address": { "@type": "PostalAddress", "addressRegion": "TX" } }
+          ]
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal",
+          "description": "Local de origem dos investigadores",
+          "containsPlace": [
+            { "@type": "City", "name": "Lisboa" },
+            { "@type": "City", "name": "Porto" }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "MonetaryGrant",
+      "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#grant",
+      "name": "Pacote de Financiamento da Sabática",
+      "description": "Bolsa totalmente financiada cobrindo viagens, vistos, até $100.000 para o laboratório de acolhimento e até $25.000 para o investigador (alojamento e custo de vida).",
+      "amount": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "125000",
+        "description": "Até 100 mil USD para despesas de laboratório + 25 mil USD para despesas do investigador"
+      },
+      "funder": {
+        "@id": "https://upic-cancer.org/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://upic-cancer.org/pt/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sabáticas de Investigação e Formação",
+          "item": "https://upic-cancer.org/sabaticas-de-investigacao-e-formacao/"
+        }
+      ]
+    }
+  ]
+}

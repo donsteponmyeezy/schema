@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/conselho-cientifico-consultivo/",
+      "url": "https://upic-cancer.org/conselho-cientifico-consultivo/",
+      "name": "Conselho Científico Consultivo - Iniciativa Cancro PT-USA",
+      "description": "Conheça o Conselho Científico Consultivo da Iniciativa Cancro PT-USA, composto por líderes científicos de instituições dos EUA e de Portugal.",
+      "inLanguage": "pt-PT",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "Iniciativa Cancro PT-USA",
+      "alternateName": "UPIC-Cancer",
+      "url": "https://upic-cancer.org/pt/",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lisboa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Lisboa"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Porto",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Porto"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Nova Iorque",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "NY",
+            "addressLocality": "New York"
+          }
+        }
+      ],
+      "department": {
+        "@type": "Organization",
+        "name": "Conselho Científico Consultivo",
+        "description": "Analisa e prioriza projetos colaborativos para consideração de financiamento.",
+        "member": [
+          {
+            "@type": "Person",
+            "name": "Mónica Bettencourt-Dias",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Consultora Científica",
+            "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-Monica-Bettencourt-Dias-SAB.webp",
+            "nationality": "Portuguesa",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lisboa",
+                "addressCountry": "PT"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Ronald DePinho",
+            "honorificSuffix": "MD, PhD",
+            "jobTitle": "Consultor Científico",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Joana Paredes",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Consultora Científica",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Porto",
+                "addressCountry": "PT"
+              }
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Kwok-Kin Wong",
+            "honorificSuffix": "MD, PhD",
+            "jobTitle": "Consultor Científico",
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Nova Iorque",
+                "addressRegion": "NY",
+                "addressCountry": "US"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

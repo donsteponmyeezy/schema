@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "Iniciativa Cancro PT-USA",
+      "alternateName": ["UPIC-Cancer", "UPIC"],
+      "url": "https://upic-cancer.org/pt/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#webpage",
+      "url": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/",
+      "name": "Bootcamp de Cancro de Verão - Iniciativa Cancro PT-USA",
+      "description": "Um programa imersivo de 10 dias de formação em investigação do cancro para cientistas em início de carreira no i3S, Porto.",
+      "inLanguage": "pt-PT",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#primaryimage",
+      "url": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-group-photo-2.webp",
+      "width": 500,
+      "height": 375,
+      "caption": "Participantes e Docentes do Bootcamp de Cancro de Verão da UPIC"
+    },
+    {
+      "@type": "EducationEvent",
+      "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#event",
+      "name": "Bootcamp de Cancro de Verão 2025",
+      "description": "O Bootcamp de Cancro de Verão é um programa imersivo de 10 dias desenhado para fornecer a 30 cientistas e clínicos em início de carreira uma formação intensiva em metodologias de investigação do cancro. O currículo abrange a história do cancro, oncogenes, microambiente tumoral, resistência terapêutica, epigenética e metabolismo do cancro. Inclui workshops práticos, sessões de escrita de projetos e mentoria de desenvolvimento de carreira.",
+      "startDate": "2025-06-30",
+      "endDate": "2025-07-07",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "i3S - Instituto de Investigação e Inovação em Saúde",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Porto",
+          "addressCountry": "PT"
+        }
+      },
+      "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-group-photo-2.webp",
+      "organizer": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": "Mais de 20 Docentes de Classe Mundial dos EUA, Portugal e UE"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Estudantes de doutoramento, médicos-cientistas e bolseiros de pós-doutoramento em fase inicial que trabalham em biologia do cancro"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.i3s.up.pt/event.php?v=358",
+        "availability": "https://schema.org/InStock",
+        "category": "Candidatura",
+        "description": "Bolsas totais e parciais estão disponíveis para candidatos qualificados. As admissões são avaliadas com base na excelência académica e experiência de investigação."
+      },
+      "mainEntityOfPage": {
+        "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#webpage"
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#course",
+      "name": "Bootcamp de Cancro de Verão",
+      "description": "Formação intensiva em metodologias de investigação do cancro, abrangendo tópicos fundamentais e avançados como plasticidade celular do cancro, epigenética e metabolismo.",
+      "provider": {
+        "@id": "https://upic-cancer.org/#organization"
+      },
+      "hasCourseInstance": {
+        "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#event"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://upic-cancer.org/pt/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bootcamp de Cancro de Verão",
+          "item": "https://upic-cancer.org/bootcamp-de-cancro-de-verao/"
+        }
+      ]
+    }
+  ]
+}

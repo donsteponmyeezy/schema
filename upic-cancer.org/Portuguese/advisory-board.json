@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://upic-cancer.org/conselho-consultivo/",
+      "url": "https://upic-cancer.org/conselho-consultivo/",
+      "name": "Conselho Consultivo - Iniciativa Cancro PT-USA",
+      "description": "Informações sobre o Conselho Independente Externo, Comité Executivo e Grupos de Trabalho da Iniciativa Cancro UPIC.",
+      "inLanguage": "pt-PT",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upic-cancer.org/#organization",
+      "name": "Iniciativa Cancro PT-USA",
+      "alternateName": "UPIC-Cancer",
+      "url": "https://upic-cancer.org/pt/",
+      "logo": "https://upic-cancer.org/wp-content/uploads/2025/02/upic-outlined-logo.svg",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lisboa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT",
+            "addressLocality": "Lisboa"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Nova Iorque",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "NY",
+            "addressLocality": "New York"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Texas",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressRegion": "TX"
+          }
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Filipe de Botton",
+          "jobTitle": "Presidente, Conselho Independente Externo",
+          "affiliation": {
+            "@id": "https://upic-cancer.org/#organization"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Jose Ivo",
+          "jobTitle": "Membro do Conselho",
+          "description": "Consulado Honorário de Portugal no Texas",
+          "workLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "TX",
+              "addressCountry": "US"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Perry Nisen",
+          "jobTitle": "Membro do Conselho",
+          "honorificSuffix": "MD PhD",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "UT Southwestern",
+            "location": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Ronald DePinho",
+          "jobTitle": "Presidente, Comité Executivo",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "MD Anderson Cancer Center"
+          }
+        }
+      ],
+      "department": [
+        {
+          "@type": "Organization",
+          "name": "Grupo de Trabalho de Professores Visitantes",
+          "description": "Coordena o intercâmbio de professores visitantes entre Portugal e os EUA."
+        },
+        {
+          "@type": "Organization",
+          "name": "Grupo de Trabalho do Curso de Verão",
+          "description": "Supervisiona a iniciativa Summer Cancer Bootcamp."
+        },
+        {
+          "@type": "Organization",
+          "name": "Grupo de Trabalho de Sabáticas de Investigação",
+          "description": "Gere oportunidades sabáticas para investigadores e estagiários."
+        }
+      ]
+    }
+  ]
+}

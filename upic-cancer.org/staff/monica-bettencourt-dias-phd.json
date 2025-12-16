@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://upic-cancer.org/monica-bettencourt-dias-phd/",
+      "url": "https://upic-cancer.org/monica-bettencourt-dias-phd/",
+      "name": "Monica Bettencourt-Dias, PhD - PT-USA Cancer Initiative",
+      "description": "Profile of Dr. Monica Bettencourt-Dias, Scientific Advisor for UPIC-Cancer and Senior Group Leader at the Gulbenkian Institute.",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-Monica-Bettencourt-Dias-SAB.webp"
+      },
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://upic-cancer.org/#website"
+      },
+      "mainEntity": {
+        "@id": "https://upic-cancer.org/monica-bettencourt-dias-phd/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://upic-cancer.org/monica-bettencourt-dias-phd/#person",
+      "name": "Monica Bettencourt-Dias",
+      "honorificPrefix": "Dr.",
+      "honorificSuffix": "PhD",
+      "image": "https://upic-cancer.org/wp-content/uploads/2025/03/upic-cancer-Monica-Bettencourt-Dias-SAB.webp",
+      "jobTitle": [
+        "Scientific Advisor",
+        "Senior Group Leader",
+        "Coordinator of FCT Scientific Council"
+      ],
+      "nationality": "Portuguese",
+      "description": "A senior group leader at the Gulbenkian Institute for Molecular Medicine specializing in cell cycle regulation, centrosome biogenesis, and tumorigenesis.",
+      "knowsAbout": [
+        "Centrosome Biogenesis",
+        "Tumorigenesis",
+        "Cilia Biogenesis",
+        "Cell Cycle Regulation",
+        "Heart Regeneration"
+      ],
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Gulbenkian Institute for Molecular Medicine",
+          "sameAs": "https://gulbenkian.pt/ciencia/",
+          "location": {
+            "@type": "Place",
+            "name": "Instituto Gulbenkian de Ciência",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Oeiras",
+              "addressRegion": "Lisbon",
+              "addressCountry": "PT"
+            }
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "PT-USA Cancer Initiative",
+          "url": "https://upic-cancer.org/"
+        }
+      ],
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lisbon",
+          "addressCountry": "PT"
+        }
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University College London",
+          "sameAs": "https://www.ucl.ac.uk/"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Cambridge",
+          "sameAs": "https://www.cam.ac.uk/"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Birkbeck College",
+          "sameAs": "https://www.bbk.ac.uk/"
+        }
+      ],
+      "award": [
+        "Pfizer Prize",
+        "Eppendorf Young Investigator Award",
+        "Keith Porter Fellowship (ASCB)",
+        "Gold Medal of the City Council of Oeiras"
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "EMBO",
+          "description": "European Molecular Biology Organization"
+        },
+        {
+          "@type": "Organization",
+          "name": "Portuguese Academy of Sciences"
+        },
+        {
+          "@type": "Organization",
+          "name": "EMBL Scientific Advisory Board"
+        }
+      ]
+    }
+  ]
+}
