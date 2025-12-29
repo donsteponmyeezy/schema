@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Managed IT Services and how can they help my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Managed IT Services refer to outsourcing your IT infrastructure and support to a dedicated provider who proactively monitors, maintains, and secures your systems. This helps prevent issues instead of only reacting when something breaks. At Development Guru, we use an Assess → Implement → Maintain model and best-in-class tools such as SentinelOne, Microsoft 365 and Azure, Veeam, and Datto to improve reliability, security, and performance for your business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do small businesses really need a Managed Service Provider (MSP)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Small and mid-sized businesses benefit from an MSP because they gain access to a full IT team and enterprise-grade tools without hiring multiple full-time staff. An MSP like Development Guru reduces downtime, improves security, and manages platforms such as Fortinet firewalls, Okta or Duo multi-factor authentication, SentinelOne endpoint protection, and Microsoft 365 so you can focus on running your business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between an MSP and an MSSP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Managed Service Provider (MSP) manages your IT infrastructure, networks, devices, and cloud services. A Managed Security Service Provider (MSSP) specializes in cybersecurity, including threat monitoring, incident response, and advanced security operations. Development Guru blends both models, using tools such as SentinelOne, Microsoft Defender, and SOC services to deliver complete IT and security coverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services should a full-service MSP provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full-service MSP should provide 24/7 monitoring, help desk support, patch management, cloud management, cybersecurity, backup and disaster recovery, network and Wi-Fi design, and strategic IT planning via vCIO services. Development Guru includes all of this plus modern AI and agentic solutions such as AI phone agents and workflow automation to further reduce manual work and improve response times."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do managed IT services cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Managed IT services pricing depends on the number of users and devices, the level of support required, the complexity of your environment, and your cybersecurity needs. Development Guru uses clear, predictable monthly pricing based on your business size and requirements, so you understand exactly what you are paying for and which services and tools are included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What cybersecurity tools should my business use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Best-in-breed cybersecurity for small and mid-sized businesses typically includes endpoint protection such as SentinelOne or Microsoft Defender, firewalls from Fortinet or Cisco Meraki, multi-factor authentication from Okta or Duo, email security from Mimecast or Proofpoint, and backup and disaster recovery solutions from Veeam or Datto. Development Guru designs a security stack using these tools to match your specific risk profile and compliance needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Business Continuity and Disaster Recovery (BC/DR)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Business Continuity and Disaster Recovery (BC/DR) is the strategy and set of tools that ensure your business can keep operating and quickly recover after an outage, cyberattack, or other disruption. Development Guru builds BC/DR plans that define recovery time and recovery point objectives (RTO and RPO), configure onsite and cloud backups with solutions like Veeam and Datto, and regularly test restores so you know your data and systems can be recovered."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose the right MSP for my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When choosing an MSP, ask about their years in business, experience in your industry, vendor certifications, response times, SLAs, security posture, and the tools they use. Look for an MSP that offers proactive monitoring, strong cybersecurity, clear communication, and regular strategy reviews. Development Guru has more than 25 years of experience, partnerships with vendors such as Microsoft, Cisco, Fortinet, and SentinelOne, and provides quarterly vCIO reviews to keep your IT aligned with your business goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are AI and agentic solutions, and how can they help my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI and agentic solutions use intelligent software agents to automate tasks, answer questions, and support customers and staff. Examples include AI phone agents built on platforms like Twilio, chatbots, ticket triage bots, and workflow automation powered by large language models such as Azure OpenAI. Development Guru designs and deploys these AI solutions so your team spends less time on repetitive work and more time on high-value activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I know before moving my business to the cloud?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before moving to the cloud you should assess which workloads to migrate, how data will be secured, how users will access systems, and how backup and disaster recovery will work. Governance, licensing, and compliance are also important. Development Guru specializes in Microsoft 365 and Azure migrations, helping you plan, execute, secure, and manage your cloud environment long term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is network and Wi-Fi design so important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your wired and wireless network is the foundation for everything you do, including cloud applications, voice, video, security cameras, and remote work. Poor design can cause slow speeds, dropped connections, and security gaps. Development Guru designs and deploys reliable networks using best-in-class solutions such as Cisco Meraki, Ubiquiti UniFi, Aruba, and Fortinet so your business has fast, secure connectivity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I update my IT roadmap?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because technology and cyber threats change quickly, it is smart to review your IT strategy at least quarterly and refresh your full roadmap annually. Development Guru provides vCIO services and scheduled strategy sessions so your hardware, software, cloud services, and security posture stay aligned with your growth plans and budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if my systems go down or my company is hacked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a system outage or cyber incident occurs, an MSP should follow a clear incident response plan: isolate and contain the issue, restore from clean backups, investigate the root cause, and harden the environment to prevent recurrence. Development Guru combines monitoring, security tools, and tested backup solutions so that when incidents happen, we can respond quickly and minimize downtime and data loss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I measure the ROI of my IT investment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can measure IT ROI by tracking improvements in uptime, reduction in security incidents, faster response and resolution times, productivity gains from automation, and the business impact of avoiding major outages or data loss. Development Guru provides regular reporting and vCIO reviews so you can see how your IT and security investments are supporting growth and reducing risk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are typical MSP contract terms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MSP contracts vary, but many businesses prefer predictable monthly pricing and flexible terms with clear exit options. Development Guru offers straightforward agreements with no unnecessary long-term lock-ins, so you can stay because you see value, not because you are stuck in a contract."
+      }
+    }
+  ]
+}
