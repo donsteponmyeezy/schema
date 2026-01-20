@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://developmentguru.com/#organization",
+    "name": "Development Guru",
+    "url": "https://developmentguru.com/about-us/",
+    "logo": "https://developmentguru.com/wp-content/uploads/2025/11/DevelopmentGuru-1-1.png",
+    "image": "https://developmentguru.com/wp-content/uploads/2025/10/Untitled-10-1024x683.jpeg",
+    "description": "Development Guru supports businesses with 24/7 IT expertise, proactive management, and tailored solutions built on trust, reliability & long term partnerships.",
+    "slogan": "The Experts Engineering Your Growth.",
+    "foundingDate": "2002",
+    "founder": {
+        "@type": "Person",
+        "name": "Paul Ocker"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "668 N Coast HWY #1129",
+        "addressLocality": "Laguna Beach",
+        "addressRegion": "CA",
+        "postalCode": "92651",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.5459,
+        "longitude": -117.7891
+    },
+    "telephone": "+1-949-328-7211",
+    "email": "info@developmentguru.com",
+    "priceRange": "$$",
+    "knowsAbout": [
+        "IT Consulting",
+        "Managed IT Services",
+        "Cybersecurity",
+        "AI Automation",
+        "Large Language Models (LLM)",
+        "Cloud Infrastructure",
+        "Network Design",
+        "Disaster Recovery"
+    ],
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "10:00",
+            "closes": "14:00"
+        }
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IT Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Managed IT Services",
+                    "description": "Proactive management, patching, helpdesk support, backup verification, and 24/7 monitoring."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI and LLM Consulting",
+                    "description": "Design and deployment of AI-powered automation strategies, data extraction, and workflow orchestration."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Cybersecurity Solutions",
+                    "description": "Advanced cybersecurity frameworks, security camera installation, and systems hardening."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Cloud & Infrastructure",
+                    "description": "Network redesign, server deployment, and cloud platform integration."
+                }
+            }
+        ]
+    },
+    "areaServed": [
+        {
+            "@type": "AdministrativeArea",
+            "name": "Orange County"
+        },
+        {
+            "@type": "City",
+            "name": "Laguna Beach"
+        },
+        {
+            "@type": "Country",
+            "name": "US"
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/developmentguru",
+        "https://www.instagram.com/developmentguru",
+        "https://www.yelp.com/biz/development-guru-laguna-beach",
+        "https://www.trustindex.io/reviews/developmentguru.com"
+    ]
+}

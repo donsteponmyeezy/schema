@@ -10,25 +10,30 @@
       "publisher": {
         "@id": "https://depinhodesign.com/#professionalService"
       },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://depinhodesign.com/?s={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://depinhodesign.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
       "inLanguage": "en-US"
     },
     {
-      "@type": "ProfessionalService",
-      "@id": "https://depinhodesign.com/#professionalService",
-      "name": "DePinho Graphic Design",
-      "image": "https://depinhodesign.com/wp-content/uploads/2021/07/depinho-design-website-bookmark.jpg",
-      "url": "https://depinhodesign.com",
+      "@type": [
+        "ProfessionalService",
+        "LocalBusiness"
+      ],
+      "@id": "https://depinhodesign.com/#organization",
+      "name": "DePinho Design",
+      "url": "https://depinhodesign.com/",
+      "logo": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
+      "image": "https://depinhodesign.com/wp-content/uploads/2022/11/depinho-design-logo-blue-1024x1022.jpg",
       "telephone": "+1-845-621-8546",
-      "priceRange": "$$",
-      "description": "DePinho Graphic Design is a creative agency based in Mahopac, NY, specializing in website design, branding, and online marketing for small businesses in the Hudson Valley region.",
+      "description": "A boutique design studio specializing in web design, development, digital marketing, hosting, content writing, and asset creation.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2 Rodcris Drive",
@@ -37,6 +42,7 @@
         "postalCode": "10541",
         "addressCountry": "US"
       },
+      "priceRange": "$$",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "41.36676",

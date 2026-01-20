@@ -1,0 +1,80 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://developmentguru.com/#organization",
+    "name": "Development Guru",
+    "url": "https://developmentguru.com/capability-statement/",
+    "logo": "https://developmentguru.com/wp-content/uploads/2025/11/DevelopmentGuru-1-1.png",
+    "image": "https://developmentguru.com/wp-content/uploads/2025/10/Untitled-7-1024x683.jpeg",
+    "description": "Development Guru delivers proactive IT support, cloud and cybersecurity services with 24/7 monitoring to keep your business secure and efficient.",
+    "slogan": "Let Us Take Care Of You",
+    "foundingDate": "2002",
+    "knowsAbout": [
+        "24/7 Proactive Monitoring",
+        "IT Helpdesk Support",
+        "Cloud Adoption & Management",
+        "Wireless Network Solutions",
+        "Cyber Security",
+        "Network Infrastructure",
+        "Security Cameras & Access Control"
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "668 N Coast HWY #1129",
+        "addressLocality": "Laguna Beach",
+        "addressRegion": "CA",
+        "postalCode": "92651",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.5459,
+        "longitude": -117.7891
+    },
+    "telephone": "+1-949-328-7211",
+    "email": "info@developmentguru.com",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "10:00",
+            "closes": "14:00"
+        }
+    ],
+    "areaServed": [
+        {
+            "@type": "AdministrativeArea",
+            "name": "Orange County"
+        },
+        {
+            "@type": "City",
+            "name": "Laguna Beach"
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/developmentguru",
+        "https://www.instagram.com/developmentguru",
+        "https://www.yelp.com/biz/development-guru-laguna-beach",
+        "https://www.trustindex.io/reviews/developmentguru.com"
+    ],
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://developmentguru.com/capability-statement/"
+    }
+}

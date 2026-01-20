@@ -1,0 +1,316 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Organization",
+    "@id": "https://www.trustindex.io/reviews/developmentguru.com",
+    "name": "Development Guru",
+    "logo": "https://cdn.trustindex.io/companies/e8/e80de0377275gfc7/avatar.jpg",
+    "url": "https://developmentguru.com",
+    "description": "Development Guru is trusted by over 13 happy customers, earning a 4.7-star rating! Explore real reviews and share your own experience.",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "668 N Coast Hwy #1129",
+        "addressLocality": "Laguna Beach",
+        "postalCode": "92651",
+        "addressCountry": "US"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": 1,
+        "bestRating": 5,
+        "ratingValue": 4.7,
+        "ratingCount": 13
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "datePublished": "2025-10-26T22:25:17+00:00",
+            "reviewBody": "Excellent at every point. Development Guru put in a new system and upgraded cabling. The entire team was fast and professional. Great communication and timely service. Thanks!",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "Donna Wilczek"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2025-10-05T20:42:57+00:00",
+            "reviewBody": "Responsive, knowledgeable, efficient service.  I can always count on a great customer experience when working with Paul!",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "Kerri Marchionni"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2025-09-24T18:24:43+00:00",
+            "reviewBody": "Paul, the owner of Development Guru, has been our I.T. professional consultant for well over 20 years.  When assistance is needed, Paul will drop everything to resolve an issue. Development Guru is the best....!",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "James Gartner"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2024-06-03T16:54:25+00:00",
+            "reviewBody": "Had Paul over to help us with our Internet issues, which we had been having for  five years  intermittently. He seemed to know exactly what he was doing, and by the time he left the Internet was working. He told me he was leaving for a trip the following day &amp;amp; to text him to let him know how it was going. We started having problems again. I texted, I  called and tried to chat on his website with no response from any of them. Not sure what went wrong here, but we thought we had found the right person and now he has disappeared and will not return my calls or texts. Not professional",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "Terry Gingold-Lee"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 1.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-06-11T04:47:01+00:00",
+            "reviewBody": "Development Guru has handled all IT needs for the last 13 years.  I&amp;#039;ve worked with him for the last 9.  He keeps our system running, and running well!  His response time is great, his answers concise, and the issue gets resolved.  Paul doesn&amp;#039;t try to talk you into anything; he gives you the facts, in a way you can understand, he gives you options, and if appropriate, makes recommendations, so you can make an informed decision.  No fluff.",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "David D"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-04-11T11:04:03+00:00",
+            "reviewBody": "Development Guru built a clean, professional and easy to navigate website for my business.  Paul is easy to communicate with.  Brought my vision to fruition and every phase of building pages and links with adding photos and wording was updated in a timely matter.  He follows constructive instructions, gives updates on when tasks will be completed, and easily edits or updates any changes that need to be made. Truly happy with the outcome of my website and how easy it was to work with Development Guru.",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "Jen Gonzales"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-03-07T20:02:15+00:00",
+            "reviewBody": "Paul is and has been a life saver for me and my clients supporting me on IT services out of my scope.  Thanks for all the great work.",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "James DeBeck"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-02-19T20:44:19+00:00",
+            "reviewBody": "Paul with Development Guru has been a key factor in our company&amp;#039;s success for the past 14 years. Paul customized our entire system and developed our website from scratch. He has always provided us with excellent 24/7 hour customer support. He is there to take care of any issues that may arise and does so in a very timely manner. Over the past 14 years, we have never had a breakdown. Our system has never crashed, and we owe that to Paul. By doing maintenance regularly and keeping up to date with all our equipment, our business has never been interrupted. I would recommend Paul and Development Guru to anyone in need of an IT/web professional. Paul is a great asset to any company!",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "Marisa Jagerman"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-02-19T02:01:13+00:00",
+            "reviewBody": "Great IT Service Professionals. Paul my Representative is Very knowledgeable and Responsive. He always goes the Extra Mile to make Sure Everything Works as it&amp;#039;s Supposed to. I am Fortunate to have DG&amp;#039;s Team Taking Care of my IT Needs for over 15 Years now.",
+            "inLanguage": "en",
+            "url": "https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJi9TVuTDk3IARth3-cBj8uSA",
+            "author": {
+                "@type": "Person",
+                "name": "Ismael Mendoza"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-02-19T00:00:00+00:00",
+            "reviewBody": "Paul with Development Guru has been a key factor in our company&amp;#039;s success for the past 14 years. Paul customized our entire system and developed our website from scratch. He has always provided us with excellent 24/7 hour customer support. He is there to take care of any issues that may arise and does so in a very timely manner. Over the past 14 years, we have never had a breakdown. Our system has never crashed, and we owe that to Paul. By doing maintenance regularly and keeping up to date with all our equipment, our business has never been interrupted. I would recommend Paul and Development Guru to anyone in need of an IT/web professional. Paul is a great asset to any company!",
+            "inLanguage": "en",
+            "url": "https://www.yelp.com/biz/development-guru-laguna-beach-2",
+            "author": {
+                "@type": "Person",
+                "name": "Marisa J."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2015-12-30T00:00:00+00:00",
+            "reviewBody": "I was so fortunate to learn of Dev Guru here on Yelp! Paul is a fantastic IT professional, very knowledgeable and has a can do attitude for any IT needs. I needed my home network secured and improved. Paul put together a proposal for me, helped me arrange for the parts I needed; he and his team scheduled the job to get it done efficiently. They really did a fantastic job and I am so pleased! Paul took the time to be sure everything was done exactly as I needed. I would recommend him for any personal home or business project!",
+            "inLanguage": "en",
+            "url": "https://www.yelp.com/biz/development-guru-laguna-beach-2",
+            "author": {
+                "@type": "Person",
+                "name": "Matt K."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2015-09-14T00:00:00+00:00",
+            "reviewBody": "Paul w/Development Guru has been taking care of our business (ASAP Appliance Service) &amp;amp; personal computer service needs for almost a decade now. We know that whatever problem arises, we can get a quick &amp;amp; affordable resolution - and that&amp;#039;s imperative to running a business that relies on it&amp;#039;s computers for it&amp;#039;s daily operations. We had other companies out in the past that made a mess of things. Paul came to our rescue and straightened things out. He is very professional &amp;amp; knowledgeable. We can highly recommend Paul, and are thankful for his service provided over the years!",
+            "inLanguage": "en",
+            "url": "https://www.yelp.com/biz/development-guru-laguna-beach-2",
+            "author": {
+                "@type": "Person",
+                "name": "Charlene R."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2015-09-14T00:00:00+00:00",
+            "reviewBody": "Development Guru has always been there to help my company with whatever computer support, wifi, camera installation and backup for all of our stuff. Totally reasonably priced and very clear and concise with what work is being done. I would highly recommend them and I have tried 3 other companies in Laguna Beach. Development Guru is the only ones who got the job done and who we continually rely upon.",
+            "inLanguage": "en",
+            "url": "https://www.yelp.com/biz/development-guru-laguna-beach-2",
+            "author": {
+                "@type": "Person",
+                "name": "F M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 5,
+                "ratingValue": 5.0
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Trustindex",
+                "sameAs": "https://trustindex.io"
+            }
+        }
+    ],
+    "brand": {
+        "@type": "Brand",
+        "@id": "https://developmentguru.com",
+        "name": "Development Guru"
+    }
+}
